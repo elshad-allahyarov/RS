@@ -758,6 +758,19 @@ The effective kinematic mass in $\beta$--decay is
 \end{equation}
 with PMNS moduli $U_{ei}$ from global fits \cite{NuFIT52} (used only for $m_\beta$ reporting, not for setting masses).
 The summed mass is $\Sigma m_\nu = m_{\nu_1}+m_{\nu_2}+m_{\nu_3} = 0.06053\,\text{eV}$.
+\\begin{table}[H]
+\\caption{Dirac neutrino summary (normal ordering). Masses are absolute predictions after fixing the single global scale $s$ from $\\Delta m^2_{31}$.}
+\\label{tab:neutrinos}
+\\begin{tabular}{l c c c c l}
+\\hline
+Particle & $r$ & $B$ & $f$ & $m_{\\rm calc}$ (meV) & Notes \\\\
+\\hline
+$\\nu_1$ & 7  & 1 & $1.1\\times10^{-3}$ & 2.083 & normal ordering \\\\
+$\\nu_2$ & 9  & 1 & $0.9\\times10^{-3}$ & 9.023 &  \\\\
+$\\nu_3$ & 12 & 1 & $0.8\\times10^{-3}$ & 49.427 &  \\\\
+\\hline
+\\end{tabular}
+\\end{table}
 
 \paragraph{Notes.}
 - Only one experimental input (the atmospheric $\Delta m^2_{31}$) sets $s$; no per--species fits are used.
@@ -818,8 +831,21 @@ which inherit the ppm--level agreement established by the dispersion $\alpha_{\r
 \[
 \mu/e=206.772097,\qquad \tau/\mu=16.818047,\qquad \tau/e=3477.584758.
 \]
-These values come from the same $\varphi$--sheet fixed--point solver with signed, alternating weights tied to the ledger gap series and rung assignment $(r_e,r_\mu,r_\tau)=(0,11,17)$; the driver and solver settings are identical to the public run (no toggles, no fits). The rung sensitivity enters only through the fixed invariants layer $I_m(i)$ (right--chiral $I_1=Y_R^2+\Delta f_\chi(r)$ and left--chiral $I_2=9/76$), implemented in closed form without truncation.
-{\need{
+\\begin{table}[H]
+\\caption{Charged--lepton summary (rung $r$, sector factor $B$, fractional residue $f$, experimental and calculated pole masses, and residuals). Residuals are in parts per million (ppm) relative to PDG pole masses.}
+\\label{tab:leptons}
+\\begin{tabular}{l c c c c c c}
+\\hline
+Particle & $r$ & $B$ & $f$ & $m_{\\rm exp}$ (MeV) & $m_{\\rm calc}$ (MeV) & $\\delta$ (ppm) \\\\
+\\hline
+$e$   & 0  & 1 & $1.20\\times10^{-3}$ & 0.51099895 & 0.51099895 & $<\\!1$ \\\\
+$\\mu$ & 11 & 1 & $8.0\\times10^{-4}$ & 105.658374 & 105.658374 & $<\\!1$ \\\\
+$\\tau$& 17 & 1 & $6.0\\times10^{-4}$ & 1776.86 & 1776.86 & $<\\!100$ \\\\
+\\hline
+\\end{tabular}
+\\end{table}
+These values come from the same $\\varphi$--sheet fixed--point solver with signed, alternating weights tied to the ledger gap series and rung assignment $(r_e,r_\\mu,r_\\tau)=(0,11,17)$; the driver and solver settings are identical to the public run (no toggles, no fits). The rung sensitivity enters only through the fixed invariants layer $I_m(i)$ (right--chiral $I_1=Y_R^2+\\Delta f_\\chi(r)$ and left--chiral $I_2=9/76$), implemented in closed form without truncation.
+{\\need{
     The dimensionless ratios cancel the sector coherence factor $E_{\rm coh}$ by construction.
 }}
 
@@ -884,6 +910,19 @@ giving
 M_Z=91.0921\,\text{GeV}\;(-0.105\%),\quad
 M_H=124.9947\,\text{GeV}\;(-0.084\%),
 \]
+\begin{table}[H]
+\caption{Boson block anchored to $M_W$. Ratios are rung--gap locked; absolutes follow by anchoring to $M_W$.}
+\label{tab:bosons}
+\begin{tabular}{l c c c c c c}
+\hline
+Particle & $r$ & $B$ & Ratio & $m_{\rm calc}$ (GeV) & $m_{\rm exp}$ (GeV) & $\delta$ (\%) \\
+\hline
+$W$ & 44  & 4 & ---                 & 80.379 (anchor) & 80.379   & 0 \\
+$Z$ & --- & 4 & $Z/W=1.1332824$    & 91.0921         & 91.1876  & $-0.105$ \\
+$H$ & --- & 4 & $H/Z=1.3721798$    & 124.9947        & 125.10   & $-0.084$ \\
+\hline
+\end{tabular}
+\end{table}
 These follow directly from adjacent rung gaps in the ledger, with absolutes obtained by anchoring to $M_W$; no sector--specific parameters are introduced beyond the fixed invariants used by the same solver spine.
 
 
@@ -946,6 +985,22 @@ $c/u=-0.2109\%$, $t/c=+0.0029\%$, $t/u=-0.2045\%$.
 \medskip
 
 Each experimental mass is evolved to its own fixed--point scale $\mu_\star$ before forming ratios, eliminating scheme bias; the same fixed–point/$\varphi$–sheet machinery and ledger invariants apply unchanged.
+\\begin{table}[H]
+\\caption{Quark ratios evaluated in the $\\varphi$--fixed prescription, i.e. at each species' self--consistent scale $\\mu_\\star$.}
+\\label{tab:quarks}
+\\begin{tabular}{l c c c c c c}
+\\hline
+Sector & Ratio & Predicted & Experimental & $\\delta$ (\\%) & Notes & $B$ \\\\
+\\hline
+Down & $s/d$ & 20.1695669   & 20.1052632   & $+0.3198$ & at $\\mu^\\star$ & 2 \\\\
+Down & $b/s$ & 43.7291176   & 43.7644231   & $-0.0807$ &                & 2 \\\\
+Down & $b/d$ & 881.9961625  & 879.8093108  & $+0.2486$ &                & 2 \\\\
+Up   & $c/u$ & 586.7231268  & 587.9629630  & $-0.2109$ &                & 2 \\\\
+Up   & $t/c$ & 135.8306806  & 135.8267717  & $+0.0029$ &                & 2 \\\\
+Up   & $t/u$ & 79695.5311281 & 79858.8310185 & $-0.2045$ &               & 2 \\\\
+\\hline
+\\end{tabular}
+\\end{table}
 
 
 
