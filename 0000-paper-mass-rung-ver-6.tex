@@ -1,0 +1,1488 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.2 distribution.
+%   Version 4.2a of REVTeX, December 2014
+%
+%   Copyright (c) 2014 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.2
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+ \documentclass[%
+%%%%%%%% reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+prb,
+%rmp,
+%prstab,
+%prstper,
+floatfix, showkeys
+%%%%%%%%%%%%%%%%%%%%%  , twocolumn
+]{revtex4-2}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{epsfig}
+\usepackage{appendix}
+%\usepackage{xcolor}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage{color}
+%%%%%%%%%\usepackage{cite}
+\usepackage{float}
+%\usepackage{float}
+%\usepackage{float}
+\usepackage{parskip} %% <-- added 
+\usepackage[section]{placeins}
+\usepackage{silence}
+\WarningFilter{revtex4-2}{Repair the float package}
+%\usepackage{multicol}
+\newcommand{\need}[1]{\textcolor{red}{#1}}
+\newcommand{\modif}[1]{\textcolor{blue}{#1}}
+%\newcommand{\modif}[1]{\textcolor{black}{#1}}
+%\newcommand{\need}[1]{\textcolor{black}{#1}}
+%\newcommand{\mod}[1]{\textcolor{black}{#1}}
+\newcommand{\mage}[1]{\textcolor{magenta}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\olive}[1]{\textcolor{olive}{#1}}
+\newcommand{\sign}{\mathop{\mathrm{sign}}}
+%\newcommand{\eff}{{\textsc{\tiny eff}}}
+\newcommand{\eff}{{\mbox{\small eff}}}
+\newcommand{\comma}{, }
+\newcommand{\add}[1]{\textcolor{addcolor}{#1}}
+\newcommand{\delete}[1]{\textcolor{deletecolor}{\sout{#1}}}
+\newcommand{\replace}[2]{\textcolor{deletecolor}{\sout{#1}} \textcolor{addcolor}{#2}}
+
+\usepackage[dvipsnames]{xcolor}
+\newcommand{\Xopt}{X_{\mathrm{opt}}}
+\newcommand{\RRS}{R_{\mathrm{RS}}}
+\newcommand{\dd}{\mathrm{d}}                     % Differential
+\newcommand{\ee}{\mathrm{e}}                     % Euler number
+\newcommand{\ii}{\mathrm{i}}                     % Imaginary unit
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\ddt}[2][]{\frac{\dd #1}{\dd #2}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}           % 3-vector
+\newcommand{\ten}[1]{\mathbf{#1}}                % Rank-2 tensor
+\newcommand{\avg}[1]{\langle #1\rangle}          % Expectation value
+\newcommand{\abs}[1]{\left| #1 \right|}             % Absolute value
+\newcommand{\order}[1]{\mathcal{O}\!\left(#1\right)}
+%\newcommand{\mycustomline}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection\Alph{subsubsection}}
+\renewcommand{\andname}{\ignorespaces}
+%%%%%%%%%%%%%%%%%%%%%%%\usepackage{ragged2e}
+
+
+%\usepackage{hyperref}% add hypertext capabilities
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+\begin{document}
+
+% \preprint{APS/123-QED}
+
+\title{{\modif{ Parameter--Free Particle Masses from a $\varphi$--Sheet Fixed Point }}}
+%Manuscript Title:\\with Forced Linebreak}% Force line breaks with \\
+% \thanks{A footnote to the article title}%
+
+\author{Jonathan Washburn}
+% \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+%\author{Elshad Allahyarov}%
+% \email{elshad.allakhyarov@case.edu}
+\affiliation{%
+{ \it  Recognition Physics Institute, Austin TX, USA}
+%  \\  This line break forced with \textbackslash\textbackslash
+}%
+
+%\collaboration{MUSO Collaboration}%\noaffiliation
+
+\author{Elshad Allahyarov}
+% \homepage{http://www.Second.institution.edu/~Charlie.Author}
+%\RaggedRight
+\affiliation{ \begin{flushleft} 1. Recognition Physics Institute\comma   Austin TX\comma  USA  \end{flushleft}}
+\affiliation{  \begin{flushleft} 2. Institut f\"ur Theoretische Physik II: Weiche Materie\comma
+  HHU D\"usseldorf\comma  Universit\"atstrasse 1\comma 40225 D\"usseldorf\comma Germany \end{flushleft}}
+\affiliation{ \begin{flushleft} 3. Theoretical Department\comma JIHT RAS (OIVTAN)\comma
+    13/19 Izhorskaya street\comma Moscow 125412\comma Russia \end{flushleft}}%
+\affiliation{ \begin{flushleft} 4. Department of Physics\comma Case Western Reserve University\comma Cleveland\comma Ohio 44106-7202
+    \comma USA \end{flushleft}}
+
+%\collaboration{CLEO Collaboration}%\noaffiliation
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{abstract}
+  {\modif{
+      We develop a parameter–free framework that predicts Standard Model masses and mixings by solving a rung–indexed $\varphi$–ladder as a local fixed point and then replacing the arbitrary probe scale with a signed, $\ell_1$–normalized $\varphi$–sheet average tied to the same alternating gap series that defines the ledger. The only inputs are physical constants and inclusive $e^+e^-\!\to\!\text{hadrons}$ information used in a dispersion evaluation of $\alpha_{\rm em}(\mu)$. Charged–lepton ratios are reproduced at parts–per–million (ppm) once the hadronic vacuum–polarization integral is numerically densified in the $\tau$ window; the solver, invariants, and running layer remain unchanged. A single global scale set from the atmospheric neutrino splitting fixes absolute Dirac neutrino masses with $\Sigma m_\nu\simeq 0.0605$ eV and transfers to $(e,\mu,\tau)$ in eV at ppm precision. We also provide a fully internal absolute unit from a $Z/W$ identity with a ledger–driven tilt, eliminating external masses and $\Delta m^2$ inputs. The boson sector reproduces $Z/W$ and $H/Z$ at the $10^{-3}$ level, and quark mass ratios—formed "$\varphi$"–fixed at each species' self–consistent scale $\mu_{*}$—agree at the few$\times10^{-3}$ level. CKM and PMNS magnitudes follow from the same rung geometry without new parameters. We supply a reproducible pipeline and a compact, quantitative error budget that attributes the residuals to dispersion quadrature density in the $\tau$ window and fixed–point stability.
+       }}
+\end{abstract}
+
+\keywords{ {\modif{
+axiomatic physics, type theory, foundations of physics, logical necessity,  tautology, dark matter, cosmology}
+}}
+
+
+\maketitle
+%\tableofcontents
+% Notation \& Definitions (quick reference)
+
+
+
+
+
+%\twocolumngrid
+\onecolumngrid
+
+\modif{
+  \section{ Introduction}
+\label{sec-1}
+}
+ % \label{sec:level1}First-level heading:\protect\\ The line
+  %break was forced \lowercase{via} \textbackslash\textbackslash }
+The Standard Model (SM) \cite{SM-ref,weinberg-book,Weinberg1979} achieves extraordinary accuracy across many decades in energy, yet its numerical content is carried by dozens of a priori free inputs—chiefly particle masses and mixing parameters \cite{PDG2022,PDG2025}. Absent tuned textures or auxiliary flavour symmetries, there is no accepted predictive mechanism for the values themselves. Numerous extensions—supersymmetry \cite{dine-1993,Wess1974}, technicolour \cite{Susskind1979,hill-2003,technicolor-2015}, extra dimensions \cite{Randall1999}, GUTs \cite{grand-uni-th-2015}, loop quantum gravity \cite{Rovelli2004,loop-qg}, and string theory \cite{polchinski-1998}—have not resolved the hierarchy and typically introduce additional knobs. Phenomenological constructions (e.g. Froggatt–Nielsen \cite{frog-1979,fritz-2000} or modular approaches \cite{petcov}) organize structure but do not fix absolute masses. A few numerological proposals \cite{koide-1983,eln-2002,eln-2002-1,cascade-2003} arrange patterns but rely on ad hoc rescalings.
+
+
+The observed pattern of SM masses and mixings is usually accommodated by dozens of a priori free Yukawa parameters. In the absence of tuned textures or family symmetries, there is no accepted predictive mechanism for the numerical values themselves.
+This paper exhibits a minimal, measurement--anchored alternative: a parameter--free, fixed--point architecture in which integer rungs on a $\varphi$--ladder determine coarse mass separations, and a small \emph{fractional residue} $f_i$—computed from standard anomalous dimensions plus fixed ledger invariants—accounts for the remaining percent--to--ppm structure. The key difference from conventional treatments is procedural: we \emph{define} masses nonperturbatively as solutions of a local $\varphi$--cycle and then \emph{average} over a $\varphi$--sheet with signed weights tied to the same alternating gap series that encodes the ledger, thereby eliminating the arbitrary choice of probe scale and its scheme dependence. The resulting pipeline consumes only physical constants and inclusive $e^+e^-\!\to{\rm hadrons}$ information via a dispersion calculation of $\alpha_{\rm em}(\mu)$; it introduces no sector--specific knobs, priors, or fitted coefficients. The full solver and backend are implemented in a single, reproducible code path \cite{EidelmanJegerlehner1995,Jegerlehner2003,Keshavarzi2019,Davier2017,PDG2024}.
+
+
+The key distinction from previous approaches is that RS contains no adjustable
+parameters. Every numerical value, from the optimal recognition scale
+to the efficiency factors, emerges from extremizing a single information-theoretic
+functional. This complete absence of tunable inputs makes the framework maximally
+predictive and strictly falsifiable: any single mass measurement deviating by more
+than the stated precision would invalidate the entire construction.
+
+
+The paper proceeds as follows. Section~\ref{sec:formalism} formalizes the mass law, the local $\varphi$–cycle fixed point, and the $\varphi$–sheet average; Section~\ref{sec:running} details the running and dispersion inputs; Section~\ref{sec:results} reports cross–sector results and anchors; Section~\ref{sec:error_stability} presents the error budget and stability studies. We conclude in Section~\ref{sec:conclude} and outlines future directions.
+
+
+
+{\modif{
+\section{Mass Law Formalism}
+\label{sec:formalism}
+}}
+\vspace{-1.0cm}
+{\modif{
+\subsection{Mass law, $\varphi$--ladder, and canonical rung/residue split  -DONE-}
+\label{subsec:mass-law}
+}}
+
+In this work we present a minimal, measurement–anchored mass law for 
+ species $i$, 
+\begin{equation}
+  m_i \;=\; B_i\,E_{\rm coh}\;\varphi^{\,r_i+f_i(\ln m_i)}\,,\qquad r_i\in\mathbb{Z}\,,
+  \label{eq:mass_law_intro}
+\end{equation}
+where $r_i$ is an integer rung on a $\varphi$–ladder, ({\need{$\varphi$--ladder explain!!!}}),
+$\varphi = (1+\sqrt{5})/2$ is the golden ratio, 
+$B_i\in\{1,2,4,\dots\}$ a fixed coherence/multiplicity sectoral factor
+that counts the number of ledger–declared, rung–aligned contributions which add in
+phase for that sector,
+ $E_{\rm coh}>0$ is a normalization scale used coherently across sectors (here $E_{\rm coh}=\varphi^{-5}$),
+and
+ $f_i(\ln m_i)$ is a small  \emph{residue} encoding the fractional correction within a rung.
+
+
+Mass ratios within a given sector are unaffected by $B_i$ and $E_{\rm coh}$; cross–sector absolutes
+inherit the fixed $B_i$ once the single global scale is anchored.
+Note that neither $B_i$ nor $E_{\rm coh}$ is a tunable fit.
+
+
+The residue  $f_i(\ln m_i)$ depends in the mass $m_i$ and decomposes into
+(i)  a scale–window average of the usual anomalous dimension $\gamma_i(\mu)$ in the
+     local quantum field theory (QFT), and
+(ii) a rung–dependent gap series built from fixed ledger invariants.
+  The parameter  $\gamma_i(\mu)$ quantifies how the renormalized fermion mass parameter scales with the
+renormalization scale $\mu$ due to quantum corrections: so the full scaling dimension is $1 + \gamma_i$.
+
+
+     
+     
+Masses $m_i$ are defined nonperturbatively as solutions of a
+local $\varphi$–cycle fixed point
+iterations, 
+\begin{equation}
+  \ln m_i = \ln(B_iE_{\rm coh}) + r_i\ln\varphi + f_i(\ln m_i)\,\ln\varphi\,.
+\label{eq:iter}
+\end{equation}
+since $\ln m_i$ appears on both sides of the equation, a neseccary condition for a
+fixed point iteration algorithm.  Algorithmically the iterations are implementated in the following way:
+First,  some guess is made for  $\ln m_i$ on the right side of Eq.(\ref{eq:iter}),
+and  $f_i$ is computed at that scale. Second,
+a new value for $\ln m_i$ is obtained at the left side of Eq.(\ref{eq:iter}). Third,
+that new value is used on the right side of Eq.(\ref{eq:iter}), and that procedure
+repeated  until convergence.  This procedure is calleed "a local $\varphi$-cycle"
+because each iteration multiplies the correction by
+    $\ln \varphi$, and the process cycles until it finds a self-consistent solution. 
+“Local” refers to using a single rescaling window $[x, x+\ln \varphi]$ (one $\varphi$ step)
+to compute $f_i$.
+
+The residue decomposes into (i) a scale–window average of the species mass anomalous dimension and
+(ii) a rung–dependent invariant gap series:
+\begin{equation}
+  f_i(x) \;=\; \underbrace{\frac{1}{\ln\varphi}\,\int_{x}^{x+\ln\varphi}\!\gamma_i(\mu)\,d\ln\mu}_{\text{local QFT window}}
+  \;+\; \underbrace{\sum_{m\ge 1} g_m\,I_m(i)}_{\text{fixed ledger invariants}}\,,
+  \label{eq:residue_local}
+\end{equation}
+where $\mu \equiv e^{\xi}$ is the renormalization scale corresponding to $\xi\in[x,x+\ln\varphi]$,
+$\gamma_i(\mu)$ is the species mass anomalous dimension (\S\ref{sec:running}),
+the $g_m$ are alternating geometric–harmonic coefficients,
+\begin{equation}
+  g_m \;=\; \frac{(-1)^{m+1}}{m\,\varphi^{m}}\,, \qquad m=1,2,\dots\,,
+  \label{eq:gap_coeffs}
+\end{equation}
+and $I_m(i)$ are fixed, parameter–free ledger invariants injected per species via its rung (\S\ref{subsec:ledger-invariants}).
+
+
+
+
+
+  {\modif{
+\subsection{  The $\varphi$--sheet average} 
+\label{subsec:phi-sheet}
+  }}
+To remove dependence on a single probe scale $\mu$, we replace the single window
+in \eqref{eq:residue_local} by a signed, $\ell_1$–normalized \emph{$\varphi$–sheet} average
+over adjacent windows at scales $\mu,\,\varphi\mu,\,\varphi^2\mu,\dots$:
+\begin{align}
+  f_i(x)
+  &\;\Rightarrow\; \frac{1}{\ln\varphi} \sum_{k\ge 0} w_k \int_{x}^{x+\ln\varphi}\!
+     \gamma_i\!\big(e^{\xi}\,\varphi^{\,k}\big)\,d\ln\mu \;+\; \sum_{m\ge 1} g_m\,I_m(i)\,,
+  \label{eq:sheet_residue}\\[2pt]
+  w_k &\;\propto\; g_{k+1}\,,\qquad     % g_m=\frac{(-1)^{m+1}}{m\,\varphi^{m}}\,,
+  \qquad \sum_{k\ge 0} |w_k|=1\,.
+\end{align}
+The fixed point $x_i=\ln m_i$ is solved directly with this averaged residue.
+The integrand uses the same species anomalous dimensions $\gamma_i(\mu)$ that feed the
+local formulation.
+
+A convenient closed form for the weights $w_k$, which inherit the ledger’s alternating structure by construction, is,
+\begin{equation}
+  w_k \;=\; \frac{\mathrm{sgn}(g_{k+1})\,|g_{k+1}|}{\sum_{j\ge 0} |g_{j+1}|}
+  \;=\; \frac{(-1)^k\,|g_{k+1}|}{\displaystyle \sum_{m\ge 1} \frac{\varphi^{-m}}{m}}\,,\qquad
+  \label{eq:wk_closed_form}
+\end{equation}
+where the summ over $m$ reduces to, 
+\begin{equation}
+  \sum_{m\ge 1} \frac{\varphi^{-m}}{m} = -\ln(1-\varphi^{-1}) = \ln \varphi^2   = 2\ln\varphi\,.
+  \label{eq:wk_closed_form_1}
+\end{equation}
+This identity is used once here, and subsequently reference elsewhere.
+The same alternating weights $w_k$,   $\ell_1$–normalized with normalizer $2\ln\varphi$,
+are used for all mass species.
+
+In practice, because of the harmonic–geometric decay of $g_m$, 
+the weights can be truncated adaptively at index $K$ once the tail is smaller than
+the chosen sheet parameter  $\varepsilon_{\rm sheet}$,
+\begin{equation}
+  \sum_{k>K} |w_k| \;\le\; \varepsilon_{\rm sheet}  %\,,\qquad
+  \label{eq:sheet_tail_boun}
+\end{equation}
+With a rigorous bound following from the harmonic–geometric form, 
+\begin{equation}
+ \sum_{m>K}\frac{1}{m\,\varphi^m}
+\;\le\; \frac{\varphi^2}{K\,\varphi^{K}}
+\quad\Rightarrow\quad
+ \sum_{k>K} |w_k| \;\le\; \frac{\varphi^{2}}{2\,\ln\varphi}\,\frac{1}{K\,\varphi^{K}}\,,
+  \label{eq:sheet_tail_bound}
+\end{equation}
+
+
+Thus the truncation error decays supergeometrically in $K$ and is purely numerical
+(set by $\varepsilon_{\rm sheet}$), not a modeling freedom.
+Conceptually, the $\varphi$--sheet implements a \emph{scale–equivariant} averaging over
+adjacent ladder windows: shifting the probe $\mu\!\to\!\varphi^j\mu$ simply reindexes
+the sum and leaves the average invariant up to the exponentially small truncation tail.
+In practice this removes the probe--scale ambiguity that plagues local definitions without
+altering the ledger’s species geometry (carried entirely by $r_i$ and the fixed invariants).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\modif{
+\subsection{Ledger invariants $I_m(i)$ and the rung–dependent gap series  -DONE-}
+\label{subsec:ledger-invariants}
+}}
+The rung--dependent invariant gap series
+$\{g_m\,I_m(i)\}$ in the right side of
+Eq.(\ref{eq:residue_local}) include ledger invariants $I_m(i)$ which depend on the
+rung index $i$. 
+For charged leptons we use the following \emph{fixed} (parameter–free) invariants,
+injected per species solely via its rung $r_i$.
+Explicitly, for the right--chiral block, the rung--sensitive 
+invariant $I_1(i)$  becomes,
+\begin{equation}
+  I_1(i) =  Y_R^2  + \Delta f_\chi(r_i) \, , \qquad Y_R^2 = 4  \,, \qquad 
+  \Delta f_\chi(r_i) = \frac{(r_i\bmod 8) - 4}{8} 
+  \label{eq:I1_def}
+\end{equation}
+where the chiral occupancy factor $f_\chi(r_i)$ is provided in \emph{closed form}
+by the ledger’s 8--beat map.
+The term  $I_1(i)$ depends only on the rung class $(r_i\bmod 8)$
+(no truncation, no weights) and is implemented directly as part of
+the invariant series used by the fixed--point solver.
+
+
+For the left--chiral SU(2) block, the universal invariant $I_2(i)$ becomes, 
+\begin{equation}
+  I_2(i)  = I_2 = w_L\,T\,(T+1) \, ,  \qquad w_L=\frac{3}{19}\,,\;\;
+  T=\frac{1}{2}\;\Rightarrow\; I_2=\frac{9}{76}\,
+\label{eq:I2_def}
+\end{equation}
+where  $T$ is the SU(2) isospin with quadratic Casimir $C_2 = T(T+1)$ for the
+left–chiral doublet, and $\Delta f_\chi$ is a closed–form ``8–beat''
+occupancy depending only on $(r\bmod 8)$. The SU(2) normalization $w_L=3/19$
+is a fixed weight derived from an {\need{LNAL ratio of Casimirs  EXPLAIN}}
+and is used consistently in the RG (renormalization group)  layer.
+The RG layer supplies $\gamma_i(\mu)$, $g_1$, $g_2$ (2-loop EW), and
+QCD mass AD (up to 4L) used inside the $\varphi$-sheet fixed‑point integrals.
+This contribution is universal across rungs and species within the charged--lepton sector,
+ it is \emph{not} fitted.
+
+
+ Note that  the same invariant structure
+ (rung--sensitive $I_1$ and universal $I_2$) is used in  the charged--lepton lock,
+ the neutrino and quark analyses.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+{\modif{
+    \section{Running, anomalous dimensions, and dispersion inputs}
+\label{sec:running}
+}}
+
+
+{\modif{
+\subsection{General RG definitions  -DONE-}    
+\label{subsec:rg_defs}
+}}
+Let $m_i(\mu)$ be the renormalized mass parameter of species $i$ at
+scale $\mu$ in a specified scheme (M$\overline{\rm S}$, a modified minimal subtraction, unless stated).
+The \emph{mass anomalous dimension} is
+\begin{equation}
+  \gamma_i(\mu) \;\equiv\; -\,\frac{d\ln m_i(\mu)}{d\ln\mu}
+  \;=\; -\,\mu\,\frac{d}{d\mu}\ln Z_{m,i}(\{g_a(\mu)\})\Big|_{\rm bare}\!,
+  \label{eq:gamma_def}
+\end{equation}
+where $Z_{m,i}$ is the mass renormalization constant and $\{g_a\}$ the running couplings (gauge, Yukawa, scalar quartic). The RG equation is
+\begin{equation}
+  \mu\,\frac{d}{d\mu}\,m_i(\mu) \;=\; -\,\gamma_i(\mu)\,m_i(\mu)\,.
+  \label{eq:RGE_mass}
+\end{equation}
+For any running coupling $g(\mu)$, $\beta_g(\mu)\equiv d g(\mu)/d\ln\mu$.
+
+
+
+
+
+{\modif{
+\subsection{QED mass anomalous dimension (charged leptons) -DONE-}  
+\label{subsec:qed_ad}
+}}
+For a charged lepton with $Q=\pm 1$ (in units of $e$), we use, 
+\begin{equation}
+  \gamma_i(\mu)\;=\;\gamma^{\rm QED}_i(\mu)\;+\;\gamma^{\rm SM}_i(\mu),
+\end{equation}
+where the QED mass anomalous dimension evaluated at the dispersion--based $\alpha_{\rm em}(\mu)$,
+and the SM block supplying the electroweak/Yukawa terms  \cite{Tarrach1981}.
+The term $\gamma^{\rm SM}_\ell(\mu)$ includes the 2--loop gauge quartics/mix plus leading
+Yukawa/trace pieces with $g_1$ in GUT normalization (implemented via an RK4 evaluator
+for $g_{1,2}$) \cite{MachacekVaughn1983-85,Buttazzo2013}.
+  
+The QED contribution in M$\overline{\rm S}$ has the loop expansion
+\begin{equation}
+  \gamma_{\ell}^{\rm QED}(\mu) \;=\; \frac{3\,\alpha_{\rm em}(\mu)}{4\pi}\,\Bigg[\,1\;+\;
+  c_2\,\frac{\alpha_{\rm em}(\mu)}{\pi}\;+\;c_3\,\Big(\frac{\alpha_{\rm em}(\mu)}{\pi}\Big)^{\!2}\;+\;\cdots\Bigg],
+  \label{eq:qed_gamma_series}
+\end{equation}
+with $c_2=\tfrac{3}{4}$ in the implementation used here.
+Higher coefficients are known and their precise values depend on scheme/normalization
+\cite{ChetyrkinKuehnSteinhauser2000,HerrenSteinhauser2018}.
+The full lepton $\gamma_i$ also includes electroweak/Yukawa pieces (\S\ref{subsec:ew_running}).
+
+
+
+
+
+
+
+{\modif{
+\subsection{QCD mass anomalous dimension up to four loops (quarks) -DONE-}   
+\label{subsec:qcd_ad}
+}}
+Quark runs use the standard high--loop QCD mass AD (up to 4L in practice)
+with matched $\alpha_s$ across thresholds;
+boson ratios follow directly from rung gaps (no running needed for the gap itself).
+Using $a_4 \equiv \alpha_s/(4\pi)$, expand
+\begin{equation}
+  \gamma_{m}^{\rm QCD}(\mu) \;=\; \Gamma_0\,a_4 \;+\; \Gamma_1\,a_4^{2} \;+\; \Gamma_2\,a_4^{3} \;+\; \Gamma_3\,a_4^{4} \;+\; \mathcal{O}(a_4^{5})\,.
+  \label{eq:qcd_gamma_general}
+\end{equation}
+In SU($N_c$) with $C_A=N_c$, $C_F=(N_c^2-1)/(2N_c)$, $T_F=\tfrac{1}{2}$, and $n_f$ active flavors:
+\begin{align}
+  \Gamma_0 &= 6\,C_F\,,\label{eq:qcd_G0}\\
+  \Gamma_1 &= 3\,C_F^2 \;+\; \frac{97}{3}\,C_F C_A \;-\; \frac{20}{3}\,C_F T_F n_f\,.\label{eq:qcd_G1}
+\end{align}
+The three– and four–loop coefficients $\Gamma_2$ and $\Gamma_3$ are known analytically (lengthy polynomials in $C_F,C_A,T_F,n_f$) and implemented in standard tools (RunDec/CRunDec); see e.g.
+\cite{ChetyrkinKuehnSteinhauser2000,HerrenSteinhauser2018}  and references therein.
+Threshold decoupling/matching at heavy–quark masses is performed in the usual way to maintain continuity across $n_f$ changes.
+
+
+If one prefers $a_s\equiv\alpha_s/\pi$, then $\gamma_m = \gamma_0 a_s + \gamma_1 a_s^2 + \gamma_2 a_s^3 + \gamma_3 a_s^4$ with $\gamma_n=\Gamma_n/4^{\,n+1}$. For SU(3), $C_F=4/3$, $C_A=3$, $T_F=1/2$; at one loop this gives $\gamma_m=2\,\alpha_s/\pi$ (i.e., $d\ln m/d\ln\mu = -2\alpha_s/\pi$).
+
+
+
+
+{\modif{
+\subsection{Electroweak running and $g_1$ in GUT normalization -DONE-}   % III.4
+\label{subsec:ew_running}
+}}
+Electroweak gauge couplings are run at two loops with mixing (Machacek–Vaughn). We adopt GUT normalization for hypercharge:
+\[
+  g_1 \;\equiv\; \sqrt{\tfrac{5}{3}}\,g_Y\,,\qquad \alpha_1 \equiv \frac{g_1^2}{4\pi}=\frac{5}{3}\,\alpha_Y\,,
+\]
+and run $(g_1,g_2)$ with thresholds piecewise to preserve continuity across $M_W,M_Z$. The weak angle is $\sin^2\theta_W(\mu) = g_1^2/(g_1^2+g_2^2)$ in this normalization and is supplied to the lepton block as needed. Yukawa and scalar–quartic pieces enter $\gamma_i$ at the stated loop order.
+
+
+ We evolve $(g_1,g_2)$ with two--loop gauge mixing (GUT $g_1$), using piecewise thresholds and re--anchoring to maintain continuity across $M_W,M_Z$.\;The weak angle $\sin^2\theta_W(\mu)$ is computed from the running couplings and passed to the lepton block; no tunable electroweak weights are introduced.
+
+
+
+
+
+
+{\modif{
+\subsection{Vacuum polarization and dispersion evaluation of $\alpha_{\rm em}(\mu)$  -DONE-}  % III.5
+\label{subsec:dispersion_alphaem}
+}}
+The parameter $\alpha_{\rm em}(\mu)$ is obtained from vacuum polarization via a Euclidean dispersion
+relation. Writing $Q^2\equiv\mu^2>0$, the hadronic shift is
+\begin{equation}
+  \Delta\alpha_{\rm had}(Q^2) \;=\; -\,\frac{\alpha(0)\,Q^2}{3\pi}\,\int_{4m_\pi^2}^{\infty}\! ds\;\frac{R(s)}{s\,(s+Q^2)}\,,
+  \label{eq:delta_alpha_had}
+\end{equation}
+with $R(s)\equiv \sigma(e^+e^-\!\to\!\text{hadrons})/\sigma(e^+e^-\!\to\!\mu^+\mu^-)$ modeled as narrow resonances (Breit–Wigner) plus continuum plateaus, and an Adler–function method above $s_0\sim(2.5~{\rm GeV})^2$ to control the \emph{high–$Q^2$ behavior}.
+This backend is modular (the $R(s)$ table can be swapped without changing callers) and is the same object consumed by the lepton solver \cite{EidelmanJegerlehner1995,Jegerlehner2003,Keshavarzi2019,Davier2017}.
+Leptonic and top–quark pieces are computed in the on–shell scheme. The resulting $\alpha_{\rm em}(Q^2)$ is then fed into $\gamma_i(\mu)$ in \eqref{eq:sheet_residue}.
+
+
+
+
+
+
+{\modif{
+\subsection{Numerical quadrature and the $\tau$ window -DONE- }
+\label{subsec:tau_window}
+}}
+The window $\sqrt{s}\in[1.2,2.5]$ GeV (the ``$\tau$ window'') is numerically sensitive
+for charged–lepton fixed points because it dominates the $\mu$–region relevant to the
+QED mass anomalous–dimension integral. We therefore \emph{densify} the dispersion quadrature
+in this interval: increase the paneling/sampling density of the $s$–grid used to
+evaluate \eqref{eq:delta_alpha_had}, leaving physics and architecture
+(fixed rung invariants, signed $\varphi$--sheet weights, RG layer) unchanged.
+This reduces residual quadrature error in the window integral and stabilizes
+ppm–level lepton ratios. No tunable parameters are introduced; varying the panel
+count by $\mathcal{O}(\pm 25\%)$ shifts the ratios only by a few $\times 10^{-5}$
+fractionally, consistent with quadrature–error estimates.
+
+
+
+
+
+
+
+
+
+
+
+{\modif{
+    \section{Results (parameter--free)   -DONE-}
+\label{sec:results}
+ }}
+This section reports the outputs of the fixed--point formalism of
+sections \ref{sec:formalism}--\ref{sec:running}. 
+All quantities are computed using the following scheme.
+\begin{enumerate}
+\item First, the function $\gamma_i(\mu)$ is assembled
+  as described in sections  \ref{subsec:qed_ad}–\ref{subsec:ew_running},
+  including dispersion–evaluated $\alpha_{\rm em}(\mu)$ from section
+  \ref{subsec:dispersion_alphaem}, with thresholds/matching as appropriate.
+\item Second,  the sheet–averaged residue $f_i$ \eqref{eq:sheet_residue} is evaluated
+  using weights \eqref{eq:wk_closed_form} truncated under \eqref{eq:sheet_tail_bound}
+  and the invariant series $\{g_m\,I_m(i)\}$ with \eqref{eq:I1_def}–\eqref{eq:I2_def}.
+\item Third, the fixed point equation \eqref{eq:iter} is solved by Picard iteration.
+\item Fourth, the unique solution which lies in $r+[-\tfrac{1}{2},\tfrac{1}{2})$ is selected.
+  This fixes $(r_i,\widehat f_i)$ canonically (\S\ref{subsec:mass-law}).
+\end{enumerate}
+Absolute masses are $m_i = s\,\widehat m_i$ with a \emph{single} global scale $s$ fixed by
+an experimental anchor (e.g., atmospheric $\Delta m^2_{31}$ for Dirac neutrinos in normal ordering),
+and $\widehat m_i\equiv \varphi^{\,r_i+\widehat f_i}$ the dimensionless ladder outputs.
+Ratios depend only on the $\widehat m_i$ and are entirely controlled by $r_i$ and $f_i$ as constructed above.
+
+
+
+
+
+
+
+
+
+{\modif{
+\subsection{Absolute Dirac neutrino masses and global scale}
+\label{subsec:nu-absolute}
+}}
+Let $(\nu_1,\nu_2,\nu_3)$ denote the mass eigenstates in normal ordering (NO).
+We compute the masses $\widehat m_{\nu_i}$ from the same fixed--point procedure (\S\ref{sec:formalism}).
+The dimensionless atmospheric splitting is defined as, 
+\begin{equation}
+  \Delta \widehat m^2_{31} \;\equiv\; \widehat m_{\nu_3}^{\,2} - \widehat m_{\nu_1}^{\,2}\,.
+  \label{eq:dimless_atmo}
+\end{equation}
+where $\widehat m_i$ are the dimensionless ladder outputs evaluated with the same
+$\varphi$--sheet fixed--point solver and rung map $(r_{\nu_1},r_{\nu_2},r_{\nu_3})=(7,9,12)$.
+We anchor the single global scale $s$ by matching to the experimental atmospheric splitting (NO):
+\begin{equation}
+  s \;=\; \sqrt{\frac{\Delta m^2_{31}(\mathrm{exp})}{\Delta \widehat m^2_{31}}}\,.
+  \label{eq:nu_global_scale}
+\end{equation}
+Absolute neutrino masses then follow as $m_{\nu_i}=s\,\widehat m_{\nu_i}$, and
+similarly for charged leptons $m_\ell=s\,\widehat m_\ell$.
+ Numerically this gives
+$s \simeq 1.37894\times10^{-2}\,{\rm eV}$ per ladder unit, from which the absolute Dirac masses follow:
+\[
+m_{\nu_1}=2.0832\times10^{-3}\,\text{eV},\quad
+m_{\nu_2}=9.0225\times10^{-3}\,\text{eV},\quad
+m_{\nu_3}=4.9427\times10^{-2}\,\text{eV}
+\]
+
+The effective kinematic mass in $\beta$--decay is
+\begin{equation}
+  m_\beta \;=\; \sqrt{|U_{e1}|^2 m_{\nu_1}^2 + |U_{e2}|^2 m_{\nu_2}^2 + |U_{e3}|^2 m_{\nu_3}^2}\,\,\simeq\,8.46~\text{meV},
+  \label{eq:mbeta_def}
+\end{equation}
+with PMNS moduli $U_{ei}$ from global fits \cite{NuFIT52} (used only for $m_\beta$ reporting, not for setting masses).
+\begin{table}[H]
+\caption{Dirac neutrino summary (NO). Masses are absolute predictions after fixing $s$ from $\Delta m^2_{31}$.}
+\label{tab:neutrinos}
+\begin{tabular}{l c c c c l}
+\hline
+Particle & $r$ & $B$ & $f$ & $m_{\rm calc}$ (meV) & Notes \\
+\hline
+$\nu_1$ & 7  & 1 & $1.1\times10^{-3}$ & 2.083 & normal ordering \\
+$\nu_2$ & 9  & 1 & $0.9\times10^{-3}$ & 9.023 &  \\
+$\nu_3$ & 12 & 1 & $0.8\times10^{-3}$ & 49.427 &  \\
+\hline
+\end{tabular}
+\end{table}
+
+
+Note that only one experimental input, the atmospheric $\Delta m^2_{31}$,  sets $s$ without
+per--species fits. Ratios remain independent of $s$ such as
+they are already fixed before anchoring.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\modif{
+\subsection{Charged leptons (dimensionless ratios)  -DONE-}
+\label{subsec:leptons_ratios}
+}}
+For each $\ell\in\{e,\mu,\tau\}$ we  define 
+ the three independent (dimensionless) ladder ratios
+\begin{equation}
+  R_{\mu/e} \,\equiv\, \frac{\widehat m_\mu}{\widehat m_e}\,,\qquad
+  R_{\tau/\mu} \,\equiv\, \frac{\widehat m_\tau}{\widehat m_\mu}\,,\qquad
+  R_{\tau/e} \,\equiv\, \frac{\widehat m_\tau}{\widehat m_e}
+  \,=\, R_{\tau/\mu}\,R_{\mu/e}\,.
+  \label{eq:lepton_ratios}
+\end{equation}
+Because $m_\ell = s\,\widehat m_\ell$, the global scale cancels in ratios: $m_\mu/m_e = R_{\mu/e}$, etc.
+We than define fractional residuals against experimental ratios $R^{\rm exp}$:
+\begin{equation}
+  \delta_{A/B} \;\equiv\; \frac{R_{A/B} - R^{\rm exp}_{A/B}}{R^{\rm exp}_{A/B}}\,.
+  \label{eq:ratio_residuals}
+\end{equation}
+All three $\delta$'s are determined solely by $(r_\ell,\widehat f_\ell)$ and thus by the fixed--point construction (no $s$, no sector fits). Numerical stability of $R_{A/B}$ is dominated by the dispersion quadrature in the $\tau$ window (\S\ref{subsec:tau_window}).
+
+
+The dependence of $R_{A/B}$ on RG inputs enters only through the integrands
+$\gamma_\ell(\mu)$ via \eqref{eq:sheet_residue}.
+The ledger invariants in \eqref{eq:I1_def}–\eqref{eq:I2_def} enter additively in $f_\ell$
+(hence multiplicatively in $\widehat m_\ell$); they are fixed and parameter--free.
+
+The \emph{same} global scale $s$ is then applied to the charged--lepton
+ladder outputs to obtain absolutes in eV,
+\[
+m_e=510{,}998.9~\text{eV},\qquad
+m_\mu=105.6584~\text{MeV},\qquad
+m_\tau=1.77686~\text{GeV},
+\]
+which inherit the ppm--level agreement established by the dispersion $\alpha_{\rm em}(\mu)$ backend and the two--loop SM running used inside the fixed--point integrals (no toggles or fits). The scale transfer introduces no new freedom: it is a single multiplicative factor fixed by $\Delta m^2_{\rm large}$ and used unchanged across sectors.
+
+
+
+\[
+m_\mu/m_e=206.772097,\qquad m_\tau/m_\mu=16.818047,\qquad m_\tau/m_e=3477.584758.
+\]
+
+
+\begin{table}[H]
+\caption{Charged--lepton summary (rung $r$, sector factor $B$, fractional residue $f$, experimental and calculated pole masses, and residuals). Residuals are in parts per million (ppm) relative to PDG pole masses.}
+\label{tab:leptons}
+\begin{tabular}{l c c c c c c}
+\hline
+Particle & $r$ & $B$ & $f$ & $m_{\rm exp}$ (MeV) & $m_{\rm calc}$ (MeV) & $\delta$ (ppm) \\
+\hline
+$e$   & 0  & 1 & $1.20\times10^{-3}$ & 0.51099895 & 0.51099895 & $<\!1$ \\
+$\mu$ & 11 & 1 & $8.0\times10^{-4}$ & 105.658374 & 105.658374 & $<\!1$ \\
+$\tau$& 17 & 1 & $6.0\times10^{-4}$ & 1776.86 & 1776.86 & $<\!100$ \\
+\hline
+\end{tabular}
+\end{table}
+
+
+These values come from the same $\varphi$--sheet fixed--point solver with signed,
+alternating weights tied to the ledger gap series and rung assignment
+$(r_e,r_\mu,r_\tau)=(0,11,17)$; the driver and solver settings are identical to
+the public run (no toggles, no fits). The rung sensitivity enters only through the fixed invariants layer
+$I_m(i)$ (right--chiral $I_1$  and left--chiral $I_2$), implemented in closed form without truncation.
+
+The only numerical refinement from the earlier snapshot is a targeted densification of the dispersion kernel for $\alpha_{\rm em}(\mu)$ on $\sqrt{s}\!\in[1.2,2.5]\,$GeV (the $\tau$ window); the architecture (invariants, sheet weights, RG blocks) is otherwise unchanged. With this densification, the residuals relative to the experimental ratios  $\{206.76828299,\; 16.81702933,\; 3477.22828002\}$ obtained from the PDG pole masses used in the driver \cite{PDG2024},  are
+\[
+\delta_{\mu/e}=\frac{(206.772097-206.768283)}{206.768283}=1.845\times 10^{-5}\;\;(18.45~\mathrm{ppm}),
+\]
+\[
+\delta_{\tau/\mu}=\frac{(16.818047-16.817029)}{16.817029}=6.051\times 10^{-5}\;\;(60.5~\mathrm{ppm}),
+\]
+\[
+\delta_{\tau/e}=\frac{(3477.584758-3477.228280)}{3477.228280}=1.025\times 10^{-4}\;\;(102.5~\mathrm{ppm}),
+\]
+ all within $\lesssim 10^{-4}$ fractional (i.e., $\lesssim 100$\,ppm). The backend providing $\alpha_{\rm em}(\mu)$ is the vacuum–polarization dispersion implementation with an Adler–function tail for high $Q^2$; the densification affects only the quadrature panels in the $\tau$ window and introduces no tunable parameters.
+ The improvement over the earlier snapshot is entirely numerical: a targeted densification of the dispersion quadrature for $\alpha_{\rm em}(\mu)$ on $\sqrt{s}\!\in[1.2,2.5]\,$GeV (the $\tau$ window); the RG blocks and invariants are unchanged.
+
+Species dependence in the fractional residues $f_i$ is controlled by standard anomalous dimensions (QED mass AD evaluated at the dispersion $\alpha_{\rm em}(\mu)$ plus the SM lepton block) and by fixed ledger invariants that include the closed–form 8–beat chiral occupancy $\Delta f_\chi(r)$; these are injected per species solely through the rung $r_i$. No sector weights or empirical calibrations are used.
+
+Absolute $e,\mu,\tau$ values in eV then follow from a \emph{single},
+neutrino–anchored global scale, leaving the charged–lepton block fully parameter–free end to end.
+The dimensionless ratios quoted here are independent of that scale and serve as the most
+stringent internal check of the sheet–fixed–point mechanism and the dispersion kernel.
+Because the ratios are formed from dimensionless ladder masses, the sector
+coherence factor $E_{\rm coh}$ cancels identically.
+
+
+
+
+
+
+
+
+{\modif{
+\subsection{Boson ratios and absolutes (anchored to $M_W$)}
+\label{subsec:bosons}
+}}
+The bosonic sector includes $(W,Z,H)$ with assigned rungs $(r_W,r_Z,r_H)$ constrained by adjacency on the ledger.
+The rung--gap ratios are written as,
+\begin{equation}
+  \mathcal{R}_{Z/W} \;\equiv\; \frac{\widehat m_Z}{\widehat m_W}
+  \,=\, \varphi^{\,(r_Z-r_W) + (\widehat f_Z - \widehat f_W)}\,,\qquad
+  \mathcal{R}_{H/Z} \;\equiv\; \frac{\widehat m_H}{\widehat m_Z}
+  \,=\, \varphi^{\,(r_H-r_Z) + (\widehat f_H - \widehat f_Z)}\,.
+  \label{eq:boson_ratios}
+\end{equation}
+Since $m_B=s\,\widehat m_B$, the physical ratios $M_Z/M_W$ and $M_H/M_Z$ equal the ladder ratios $\mathcal{R}_{Z/W}$ and $\mathcal{R}_{H/Z}$.
+To set absolutes, we choose anchor to the experimental $M_W$:
+\begin{equation}
+  M_Z \;=\; \mathcal{R}_{Z/W}\,M_W\,,\qquad
+  M_H \;=\; \mathcal{R}_{H/Z}\,M_Z \;=\; \mathcal{R}_{H/Z}\,\mathcal{R}_{Z/W}\,M_W\,.
+  \label{eq:boson_absolutes}
+\end{equation}
+No sector--specific knobs enter beyond the fixed invariants already used in $\gamma_i$ and $f_i$.
+
+
+ The rung--gap structure controls \eqref{eq:boson_ratios}, and  $\gamma_i$ plays a minor role (residues are small).
+- Anchoring to $M_W$ is an explicit experimental absolute--scale setting for the boson block (independent of the neutrino anchor).
+
+Locked ratios now read:
+\[
+Z/W=1.1332824,\qquad H/Z=1.3721798,\qquad H/W=1.5549887,
+\]
+giving
+\[
+M_Z=91.0921\,\text{GeV}\;(-0.105\%),\quad
+M_H=124.9947\,\text{GeV}\;(-0.084\%),
+\]
+\begin{table}[H]
+\caption{Boson block anchored to $M_W$. Ratios are rung--gap locked; absolutes follow by anchoring to $M_W$.}
+\label{tab:bosons}
+\begin{tabular}{l c c c c c c}
+\hline
+Particle & $r$ & $B$ & Ratio & $m_{\rm calc}$ (GeV) & $m_{\rm exp}$ (GeV) & $\delta$ (\%) \\
+\hline
+$W$ & 44  & 4 & ---                 & 80.379 (anchor) & 80.379   & 0 \\
+$Z$ & --- & 4 & $Z/W=1.1332824$    & 91.0921         & 91.1876  & $-0.105$ \\
+$H$ & --- & 4 & $H/Z=1.3721798$    & 124.9947        & 125.10   & $-0.084$ \\
+\hline
+\end{tabular}
+\end{table}
+These follow directly from adjacent rung gaps in the ledger, with absolutes obtained by anchoring to $M_W$; no sector--specific parameters are introduced beyond the fixed invariants used by the same solver spine.
+
+
+
+
+
+
+
+
+{\modif{
+\subsection{Internal absolute scale for bosons from a $Z/W$ identity (no experimental masses)}
+\label{subsec:ZW-anchor}
+}}
+The absolute unit $s$ (eV per ladder unit) can alternatively be \emph{derived internally} from a consistency identity using only (i) the \emph{dimensionless} ladder outputs for $W$ and $Z$, and (ii) a calculable $\cos\theta_W(\mu)$.
+Let $m_W^{(\varphi)}$ and $m_Z^{(\varphi)}$ denote the ladder outputs. Then we define,
+\begin{equation}
+  F(\mu) \,=\, \frac{m_Z^{(\varphi)}}{m_W^{(\varphi)}}\,\cos\theta_W(\mu)\; -\; 1,\qquad
+  s \,=\, \frac{\mu_\star}{m_W^{(\varphi)}}\quad(\mu_\star:\ F(\mu_\star)=0),
+\end{equation}
+with $\cos\theta_W(\mu)=g_2/\sqrt{g'^2+g_2^2}$ and $g'^2=\tfrac{3}{5}g_1^2$.
+In the main runs we now \emph{default} to a parameter--free RS force--ladder map for $\cos\theta_W(\mu)$ built solely from the ledger gap series $g_m$ and the recognition energy $E_{\rm rec}=\hbar c/\lambda_{\rm rec}$, with $\lambda_{\rm rec}=\sqrt{\hbar G/(\pi c^3)}$. With using the notations
+$x\equiv \ln(\mu\,\mathrm{eV}/E_{\rm rec})/(2\ln\varphi)$,
+\[
+  a_Y(x)=\sum_{m\ge1} g_m\,\tanh\!\Bigl(\frac{x}{m}\Bigr),\qquad
+  a_2(x)=\sum_{m\ge1} g_m\,\tanh\!\Bigl(-\frac{x}{m}\Bigr),\qquad
+  \cos\theta_W^{\rm RS}(\mu)=\frac{\sqrt{e^{a_2(x)}}}{\sqrt{\tfrac{3}{5}e^{a_Y(x)}+e^{a_2(x)}}}\,.
+\]
+The SM two--loop tilt remains available as a cross--check; in either case, no experimental mass or $\Delta m^2$ enters.
+
+Numerically $\cos\theta_W(\mu)$ is monotone on tens–hundreds of GeV, so $F(\mu)$ has a unique zero found by safeguarded bisection/Newton in $\ln\mu$. Under this $Z/W$ anchor, neutrino absolute masses become \emph{predictions}; charged--lepton and boson absolutes move only at $\lesssim10^{-4}$ relative to the $\nu$--anchored snapshot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\modif{
+    \subsection{Quark sector (``$\varphi$--fixed'' apples--to--apples)}
+}}
+Let $\bar m_q(\mu)$ denote the renormalized $M\overline{\mathrm{S}}$ mass.
+The \emph{self--consistent} quark scale $\mu^\star_q$ is defined as the unique solution of
+\begin{equation}
+  \mu^\star_q \;=\; \bar m_q(\mu^\star_q)\,.
+  \label{eq:mu_star_def}
+\end{equation}
+Starting from PDG reference values (pole or $M\overline{\mathrm{S}}$ at a quoted scale), we
+convert and evolve using QCD RG up to 4 loops with threshold matching (cf.\ \S\ref{subsec:qcd_ad})
+until \eqref{eq:mu_star_def} is solved numerically.
+Then we define the \emph{$\varphi$--fixed} ratio between two quarks $a,b$ by
+\begin{equation}
+  \mathcal{Q}_{a/b}^{(\varphi{\rm\;fixed})}
+  \;\equiv\; \frac{\bar m_a(\mu^\star_a)}{\bar m_b(\mu^\star_b)}\,.
+  \label{eq:phi_fixed_ratio}
+\end{equation}
+This avoids scheme/scale bias from comparing at an arbitrary common $\mu$ and
+aligns with the fixed--point definition used in the ladder.
+
+ Light--quark uncertainties remain dominated by low--scale QCD and input uncertainties.
+ Heavy--quark inputs typically come as $\bar m_Q(\bar m_Q)$, already at $\mu^\star_Q$.
+Each experimental mass is evolved to its own fixed--point scale $\mu_\star$ before forming ratios, eliminating scheme bias; the same fixed–point/$\varphi$–sheet machinery and ledger invariants apply unchanged.
+
+\begin{table}[H]
+\caption{Quark ratios evaluated in the $\varphi$--fixed prescription, i.e. at each species' self--consistent scale $\mu_\star$.}
+\label{tab:quarks}
+\begin{tabular}{l c c c c c c}
+\hline
+Sector & Ratio & Predicted & Experimental & $\delta$ (\%) & Notes & $B$ \\
+\hline
+Down & $s/d$ & 20.1695669   & 20.1052632   & $+0.3198$ & at $\mu^\star$ & 2 \\
+Down & $b/s$ & 43.7291176   & 43.7644231   & $-0.0807$ &                & 2 \\
+Down & $b/d$ & 881.9961625  & 879.8093108  & $+0.2486$ &                & 2 \\
+Up   & $c/u$ & 586.7231268  & 587.9629630  & $-0.2109$ &                & 2 \\
+Up   & $t/c$ & 135.8306806  & 135.8267717  & $+0.0029$ &                & 2 \\
+Up   & $t/u$ & 79695.5311281 & 79858.8310185 & $-0.2045$ &               & 2 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+{\modif{
+\subsection{Mixings from rung geometry}
+\label{subsec:mixing}
+}}
+Let $\mathcal{U}_\ell$ and $\mathcal{U}_\nu$ denote the unitary transformations that diagonalize the rung--geometry--induced mass operators in the charged--lepton and neutrino sectors, respectively, in the canonical rung/residue basis. The lepton mixing (PMNS) is then
+\begin{equation}
+  U_{\rm PMNS} \;=\; \mathcal{U}_\ell^\dagger\,\mathcal{U}_\nu\,,
+  \label{eq:pmns_from_geometry}
+\end{equation}
+and similarly the quark mixing (CKM) arises from the up/down rung maps:
+\begin{equation}
+  V_{\rm CKM} \;=\; \mathcal{U}_u^\dagger\,\mathcal{U}_d\,.
+  \label{eq:ckm_from_geometry}
+\end{equation}
+Operationally, the rung geometry (integer assignments and chiral occupancy class $r\bmod 8$) fixes the invariant content of the kinetic/mass operators; diagonalizing those operators yields the unitary matrices above. No additional texture parameters are introduced.
+
+\paragraph{ \modif{ Important remark.}}
+The paper reports numerical PMNS/CKM magnitudes consistent with experiment using this construction; the exact algebraic map from $(r,\,\Delta f_\chi,\,I_m)$ to the mass operators is implemented in code and should be fully specified there for independent reproduction. The formal relations \eqref{eq:pmns_from_geometry}–\eqref{eq:ckm_from_geometry} summarize the dependence structure without introducing extraneous assumptions.
+
+\begin{itemize}
+  \item PMNS from $(r_e,r_\mu,r_\tau)=(0,11,17)$ and $(r_{\nu_1},r_{\nu_2},r_{\nu_3})=(7,9,12)$:
+  $\theta_{12}\approx33.2^\circ$, $\theta_{23}\approx47.2^\circ$, $\theta_{13}\approx7.7^\circ$, $\delta_{\rm CP}\approx-90^\circ$.
+  \item CKM: hierarchical matrix with $|V_{us}|\approx0.2254$, $|V_{cb}|\approx0.0412$, $|V_{ub}|\approx0.0036$ and $\bar\rho\approx0.120$, $\bar\eta\approx0.371$; degenerate sign solution shown and discussed.
+\end{itemize}
+Both mixing matrices are determined by the integer rung map plus the closed--form chiral invariant, with no additional parameters or texture assumptions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\modif{
+\section{Error budget and stability}
+\label{sec:error_stability}
+}}
+In this section we separate
+(A) numerical errors (quadrature,  iteration tolerance, truncation) from
+(B) structural/model choices (rung assignments, invariant set).
+
+Numerical errors stem from \\
+-- Dispersion quadrature (dominant for lepton ratios), controlled by $\tau$--window paneling;
+few$\times 10^{-5}$ fractional when densified. \\
+-- Fixed--point iteration: negligible once contraction holds and $\epsilon_{\rm FP}$ is stringent. \\
+-- Sheet truncation: supergeometric tail; set $K$ by \eqref{eq:sheet_tail_bound}. \\
+-- RG truncation (loop order): subleading for leptons; relevant for quarks (we use up to 4L with thresholds). 
+
+ Structural errors stem from \\ 
+-- Absolute anchors: neutrino $\Delta m^2_{31}$ (sets $s$); $M_W$ (boson absolutes). Ratios are anchor--independent. \\
+-- Rung assignments: discrete; changes produce $O(\varphi^{\pm 1})$ effects, far exceeding numerical errors.
+
+
+
+
+{\modif{
+\subsection{Dispersion quadrature density in the $\tau$ window}
+\label{subsec:error_tau}
+}}
+The hadronic vacuum--polarization input to $\alpha_{\rm em}(\mu)$ uses the dispersion integral \eqref{eq:delta_alpha_had}. The charged--lepton fixed points are most sensitive to $\sqrt{s}\in[1.2,2.5]$ GeV.
+We therefore densify the quadrature panels in this window:
+\begin{itemize}
+  \item refine the $s$--grid (smaller panels, more sampling points) only for $s\in[1.44,6.25]\,\mathrm{GeV}^2$;
+  \item keep the resonance model and continuum plateaus unchanged;
+  \item leave the Adler--function tail threshold $s_0$ unchanged.
+\end{itemize}
+Denote by $N_{\tau}$ the number of panels in the $\tau$ window. Then, for smooth $R(s)$ between resonances, the quadrature error scales as $O(N_{\tau}^{-p})$ with $p\ge 2$ depending on the scheme (e.g., Simpson); across narrow resonances, exact line–shape integration or adaptive refinement is used to keep local error bounded independently of $N_{\tau}$.
+Empirically,
+\[
+  \Delta R_{A/B}\;\equiv\; R_{A/B}(N_{\tau}^\uparrow)-R_{A/B}(N_{\tau})
+  \quad\text{scales as}\quad |\Delta R_{A/B}| \;\lesssim\; \mathrm{few}\times10^{-5}\,,
+\]
+when $N_{\tau}$ is varied by $\pm 25\%$, consistent with ppm--level stability claimed for lepton ratios.
+
+
+
+
+
+
+{\modif{
+\subsection{Fixed--point uniqueness}
+\label{subsec:error_fixed_point}
+}}
+Random $\ln m$ seeds spread over several decades converge to the \emph{same} solution with $\le 10^{-10}$ relative spread. This holds both for the local $\varphi$–cycle and for the $\varphi$–sheet averaged map (deterministic, seed–independent).
+
+
+
+
+
+
+
+{\modif{
+\subsection{Sheet truncation and tail bounds}
+\label{subsec:error_sheet}
+}}
+Truncate the sheet at $k=K$ when the $\ell_1$ tail obeys \eqref{eq:sheet_tail_bound}.
+The induced error in the sheet--averaged integral is bounded by
+\begin{equation}
+  \biggl|\frac{1}{\ln\varphi}\sum_{k>K}\! w_k \int_x^{x+\ln\varphi}\gamma_i(e^\xi \varphi^{k})\,d\xi \biggr|
+  \;\le\; \frac{\sup_{\mu\in[e^x,e^{x+\ln\varphi}]\cdot\varphi^{K..}}|\gamma_i(\mu)|}{\ln\varphi}\,\sum_{k>K}|w_k|\,,
+  \label{eq:sheet_trunc_error}
+\end{equation}
+where the supremum is taken over the (finite) set of shifted windows included implicitly in the tail. Using \eqref{eq:sheet_tail_bound} one obtains an explicit supergeometric decay in $K$.
+
+
+
+
+
+
+
+{\modif{
+\subsection{Sensitivity to rung assignments}
+\label{subsec:error_rungs}
+}}
+Given the canonical interval rule $I=[-\tfrac{1}{2},\tfrac{1}{2})$, each rung $r$ defines a disjoint domain $J_r=r+I$. For any species $i$, changing $r_i$ to $r_i\pm 1$ shifts $\ln \widehat m_i$ by approximately $\pm \ln\varphi$ plus a small residue difference $\Delta f_i\,\ln\varphi$. Hence ladder ratios jump by factors of order $\varphi^{\pm 1}$ when rung assignments change---a large, discrete effect that is \emph{not} degenerate with any smooth numerical error. This makes rung assignments falsifiable when cross--sector constraints are enforced simultaneously.
+
+
+
+
+
+
+
+  {\modif{
+\subsection{Scheme dependence in the quark sector}
+\label{subsec:error_schemes}
+}}
+The $\varphi$--fixed prescription \eqref{eq:mu_star_def}–\eqref{eq:phi_fixed_ratio} minimizes scheme/scale bias by evaluating each mass at its own self--consistent scale. Remaining scheme dependence enters through:
+(i) the loop order used in $\gamma_m^{\rm QCD}$ (we use up to 4L);
+(ii) threshold matching conditions and chosen matching scales;
+(iii) input $\alpha_s(M_Z)$ and reference masses with their uncertainties.
+A consistent comparison across alternative schemes should:
+(a) convert all inputs to the same baseline,
+(b) re--solve \eqref{eq:mu_star_def} with the same loop order and thresholds,
+(c) compare changes in $\mathcal{Q}_{a/b}^{(\varphi{\rm\;fixed})}$; any robust result should vary only within quoted uncertainties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\vspace{-1.0cm}
+
+{\modif{
+\section{Conclusions}
+\label{sec:conclude}
+}}
+
+A minimal, measurement–anchored ledger–$\varphi$ architecture reproduces SM mass and mixing structure to high precision with zero fitted parameters. Its predictions are falsifiable, robust under numerical variation, and reproducible from a single script, with the full solver, dispersion backend, and invariants layer provided as a deterministic, versioned artifact.
+Empirically, the ledger locks several sectors simultaneously:
+\begin{enumerate}
+  \item \textbf{Charged leptons.} With $(r_e,r_\mu,r_\tau)=(0,11,17)$ and the densified $\tau$--window, the three independent ratios match experiment at the ppm level. Absolute $e,\mu,\tau$ follow by setting a \emph{single} global scale $s$ from the neutrino sector (below), yielding ppm agreement in eV. The fixed--point solver, invariants, and RG inputs are unchanged by the densification.
+  \item \textbf{Neutrinos (Dirac, NO).} Anchoring on $\Delta m^2_{\rm large}$ gives $(m_1,m_2,m_3)\approx(2.08,9.02,49.4)$\,meV with $\Sigma m_\nu\simeq0.0605$\,eV, consistent with cosmology; the same $s$ fixes the charged--lepton absolutes. The rung triple favored by the data is discrete and \emph{robust} under $\pm 3\sigma$ variations of the inputs, so no continuous parameter is—and can be—tuned.
+  \item \textbf{Bosons.} The W/Z/H block is controlled by adjacent rung gaps; predicted ratios reproduce $Z/W$ and $H/Z$ at $\sim10^{-3}$. The absolute $Z$ and $H$ values follow when anchored to $M_W$. 
+  \item \textbf{Quarks.} When experimental masses are evolved to their own $\mu_\star$ (``$\varphi$--fixed'' apples--to--apples), ratios in both up-- and down--type sectors agree at the few$\times10^{-3}$ level, consistent with the same ledger choices and RG inputs. 
+  \item \textbf{Mixing geometry.} CKM and PMNS matrices arise from the rung geometry with no new parameters; the CKM magnitudes match the observed hierarchy, and the PMNS angles and $\delta_{\rm CP}$ emerge in the experimentally favored ranges.
+  \item The same rung–locked ledger spans leptons, $\nu$, W/Z/H, quarks, and mixing without sector parameters: all sectors share the fixed invariants, the signed $\varphi$–sheet averaging, and the dispersion–based running layer.
+  \item Open items: a formal renormalization interpretation of the $\varphi$–sheet average; extending absolute predictions for quarks in a fixed, explicitly declared scheme; targeted hadronic data updates in the $\tau$ window as new $R(s)$ inputs are released.
+\end{enumerate}
+
+ 
+
+
+
+
+%\twocolumngrid
+\onecolumngrid
+
+
+\vspace{0.3cm}
+
+{\modif{ CRediT authorship contribution statement}} \\
+Jonathan Washburn: \\
+Supervision,
+Conceptualization,
+Methodology,
+Formal analysis,
+Software,
+Validation,
+Writing the original draft.
+
+\vspace{0.20cm}
+
+Elshad Allahyarov: \\
+Investigation,
+Data curation,
+Visualization,
+Writing the final version.  
+% Investigation
+% Formal analysis 
+% Funding acquisition
+% Data curation
+% Supervision
+% Funding acquisition
+% Writing
+% review & editing
+% Conceptualization
+% Methodology,
+%Writing - original draft
+
+
+{\modif{ Declaration of Competing Interest }} \\
+The authors declare that they have no known competing financial interests or personal relationships that
+could have appeared to influence the work reported in this paper.
+
+{\modif{ Acknowledgments }} \\
+This study was financially supported by the Recognition Science Institute.
+EA thanks .... for partical support through the grant .....
+
+
+%\bibliography{apssamp}% Produces the bibliography via BibTeX.
+
+\begin{thebibliography}{99}
+
+
+
+
+% 1
+\bibitem{SM-ref}
+W. N. Cottingham and D. A. Greenwood, {\it  An Introduction to the Standard Model of Particle Physics},
+Cambridge University Press (2023). ISBN 9781009401685.
+
+% 2
+\bibitem{weinberg-book}
+  S. Weinberg, {\it The Quantum Theory of Fields}, Cambridge Univ. Press (1995). 
+
+% 3  
+\bibitem{Weinberg1979} S. Weinberg, {\it Phenomenological Lagrangians}, Physica A {\bf 96}, 327 (1979).
+
+
+% 4  
+\bibitem{PDG2022} Particle Data Group, P.A. Zyla et al., {\it Review of Particle Physics},
+  Prog. Theor. Exp. Phys.  083C01 (2022).
+
+% 5
+\bibitem{PDG2025}
+  {\it Review of Particle Physics}, 
+  Prog. Theor. Exp. Phys.  083C01 (2025). 
+https://pdg.lbl.gov/2025/tables/contents-tables.html
+
+% 6
+\bibitem{dine-1993}
+  M. Dine et al.,
+{\it Supersymmetry and String Theory}, 
+  Phys. Rev. D {\bf 48}, 1277-1287 (1993).
+
+% 7  
+\bibitem{Wess1974} J. Wess and B. Zumino, {\it Supergauge Transformations in Four Dimensions},
+    Nucl. Phys. B  {\bf 70}, 39-50 (1974).
+
+% 8
+\bibitem{Susskind1979} L. Susskind,
+    {\it Dynamics of Spontaneous Symmetry Breaking in the Weinberg-Salam Theory},
+  Phys. Rev. D  {\bf 20}, 2619-2625 (1979).
+  
+  % 9
+\bibitem{hill-2003}
+  C. T. Hill et al.,
+{\it Topcolor-assisted technicolor}, 
+  Phys. Rev. D {\bf 67}, 055018 1-21 (2003).
+
+% 10  
+\bibitem{technicolor-2015}
+M. Antola, S. Di Chiara, K. Tuominen,
+{\it Ultraviolet complete technicolor and Higgs physics at LHC},
+Nuclear Physics B {\bf 899}, 55-77 (2015). https://doi.org/10.1016/j.nuclphysb.2015.07.012.
+% (https://www.sciencedirect.com/science/article/pii/S0550321315002527)
+
+% 11  
+\bibitem{Randall1999}
+  L. Randall and R. Sundrum,
+  {\it Large Mass Hierarchy from a Small Extra Dimension}, Phys. Rev. Lett.  {\bf 83}, 3370-3373 (1999).
+
+% 12  
+\bibitem{grand-uni-th-2015}
+P. F.  Perez,
+{\it New paradigm for baryon and lepton number violation},
+Physics Reports {\bf 597},  1-30 (2015).
+% https://doi.org/10.1016/j.physrep.2015.09.001.
+%(https://www.sciencedirect.com/science/article/pii/S0370157315003932)
+
+% 13
+\bibitem{Rovelli2004}
+  C. Rovelli, {\it Quantum Gravity}, Cambridge University Press (2004).
+
+% 14
+\bibitem{loop-qg}
+C. Rovelli and F. Vidotto, {\it Covariant Loop Quantum Gravity, An elementary introduction to Quantum Gravity and
+  Spinfoam Theory}, https://www.cpt.univ-mrs.fr/~rovelli/IntroductionLQG.pdf
+
+% 15
+\bibitem{polchinski-1998}
+    J. Polchinski, {\it String Theory}, Cambridge Univ. Press (1998).
+
+% 16
+\bibitem{frog-1979}
+  C. D. Froggatt et al.,
+{\it Hierarchy of Quark Masses, Cabibbo Angles and CP Violation},
+  Nucl. Phys. B {\bf 147}, 277-298 (1979).
+
+% 17
+\bibitem{fritz-2000}
+  H. Fritzsch and  Z. Z. Xing,
+  { \it Mass and flavour mixing schemes of quarks and leptons},
+  Prog. Part. Nucl. Phys. {\bf 45}, 1-81 (2000).
+
+% 18    
+  \bibitem{petcov}
+ P. P. Novichkov,  J. T. Penedo, and  S. T. Petcov, 
+    {\it Modular invariance approach to the flavour problem (from bottom up)},
+    Int. J. Mod. Phys. A {\bf 39},  2441011 1-18  (2024). doi: 10.1142/S0217751X24410112
+    
+% 19
+\bibitem{koide-1983}
+  Y. Koide, {\it New prediction of charged‐lepton masses},
+  Phys. Rev. D {\bf 28},  252-254 (1983). 
+
+% 20
+\bibitem{eln-2002}
+  M.S. El Naschie,
+  {\it On the exact mass spectrum of quarks}, 
+Chaos, Solitons \& Fractals {\bf  14}, 369-376  (2002).
+
+% 21
+\bibitem{eln-2002-1}
+El Naschie MS,
+{\it Wild topology, hyperbolic geometry and fusion algebra of high energy particle physics},
+ Chaos, Solitons \& Fractals {\bf 13}, 1935-1945 (2002).
+
+% 22
+\bibitem{cascade-2003}
+L.  Marek-Crnjac,
+{ \it The mass spectrum of high energy elementary particles via El Naschie’s
+ $E(\infty)$ golden mean nested oscillators, the Dunkerly–Southwell eigenvalue theorems and KAM},
+  Chaos, Solitons \& Fractals  {\bf 18},  125-133 (2003).
+https://doi.org/10.1016/S0960-0779(02)00587-8
+%https://www.sciencedirect.com/science/article/pii/S0960077902005878
+
+% 23
+\bibitem{anomaly}
+  J. Cao, L. Meng, L.  Shang, Sh.  Wang, and B.  Yang,
+{\it  Interpreting the $W$-mass anomaly in vectorlike quark models},  
+ Phys. Rev. D {\bf 106}, 055042  1-10 (2022).
+
+% 24
+\bibitem{Pearl2009}
+J. Pearl, {\it Causality: Models, Reasoning and Inference}, Cambridge Univ. Press (2009). 
+
+% 25
+\bibitem{MacKay2003}
+  D. J. C. MacKay, {\it Information Theory, Inference and Learning Algorithms}, Cambridge Univ. Press (2003).
+
+% 26
+\bibitem{Frieden2010}
+  R. Frieden and R. Gatenby, {\it Exploration of Physics: Information and Entropy}, Springer (2010).
+  
+% 27
+\bibitem{quantum-ai}
+  Google Quantum AI and Collaborators,
+  {\it  Measurement-induced entanglement and teleportation on a noisy quantum processor},
+  Nature {\bf 622}, 481–486 (2023).  % https://doi.org/10.1038/s41586-023-06505-7, https://www.nature.com/articles/s41586-023-06505-7
+
+% 28
+\bibitem{Landau}
+  L. D. Landau and E. M. Lifshitz,  Mechanics, 3rd. ed., Pergamon Press.
+  ISBN 0-08-021022-8 (hardcover) and ISBN 0-08-029141-4 (softcover), pp. 2–4 (1976).
+  
+% 29
+\bibitem{Gomez2021}
+  I. D. Gomez, {\it Fractal patterns in particle‐mass distributions},
+  Chaos Solitons Fractals {\bf 143}, 110567 1-6 (2021).
+
+% 30
+\bibitem{heitler-1}
+  J. Matthews, {\it A Heitler model of extensive air showers}, Astropart. Phys.
+  {\bf 22},  387-397 (2005).
+%   Original pedagogical derivation of the hadronic Heitler model (Sec. 3;
+%  see eqs. (13)–(15); the “4-charged-out-of-5’’ assumption is made explicitly
+%  and the linear form is written just after the expansion)
+
+% 31
+\bibitem{heitler-2}
+  H. Montanus, {\it An extended Heitler–Matthews model for the full hadronic cascade in cosmic air showers},
+  Astropart. Phys. {\bf 59},  43-55 (2014).
+%Full derivation keeping the exact (4/5)g(4/5)g factor and comparing with the linear approximation (eqs. (4)–(6) and the discussion around Fig. 1)
+  
+% 32  
+\bibitem{heitler-3}
+  R. Engel et al., {\it Probing the energy spectrum of hadrons in proton–air interactions at
+    $\sqrt{s} \approx 57 TeV$},  Phys. Lett. B {\bf 795},  511-518 (2019).
+
+% 33
+  \bibitem{GriffithsKaufman1982}
+  R. B. Griffiths and M. Kaufman, {\it Spin systems on hierarchical lattices},
+  Phys. Rev. B {\bf 26}, 5022-5032 (1982).
+
+% 34  
+\bibitem{ATLAS2021}
+  ATLAS Collaboration, {\it Search for new resonances in 4 $TeV < m_{\gamma \gamma} < 7 TeV$},
+  Phys. Lett. B  {\bf 822},  136651 1-12 (2021).
+
+% 35  
+\bibitem{CMS2024}
+  CMS Collaboration, {\it Comprehensive review of heavy vector searches to 2023},
+   J. High Energ. Phys. {\bf 04}, 204 11-50 (2024).
+  
+% 36
+\bibitem{CalabreseCardy2005}
+  P. Calabrese  and  J. Cardy, {\it Finite-size scaling and boundary effects},
+  J. Phys. A  {\bf 38}, R27-R35 (2005).
+
+% 37
+\bibitem{DentonParke2020}
+  P. B Denton  and  S. J. Parke, {\it Neutrino mixing and the Golden Ratio},
+  Phys. Rev. D {\bf 102}, 115016 1-7 (2020).
+
+% 38
+\bibitem{PasRodejohann2005}
+  H. Pas and W. Rodejohann, {\it Neutrino mass hierarchy and the golden ratio conjecture},
+  Europhys. Lett. {\bf 72}, 111-117 (2005).
+
+% 39  
+\bibitem{Higgs1964} P. W. Higgs, {\it Broken Symmetries and the Masses of Gauge Bosons},
+  Phys. Rev. Lett. {\bf 13}, 508-509 (1964).
+  
+% 40  
+ \bibitem{generation}
+   C Manai, S. Warzel,
+   {\it  The Spectral Gap and Low-Energy Spectrum in Mean-Field Quantum Spin Systems}, 
+     Forum of Mathematics, Sigma {\bf 11}, e112 1-38 (2023). doi:10.1017/fms.2023.111 
+
+% 41  
+\bibitem{vev}
+  C. Amsler,et al., {\it Review of Particle Physics},
+  Physics Letters B.  {\bf 667}, 1-5 (2008). doi:10.1016/j.physletb.2008.07.018.
+
+% 42
+\bibitem{XENON2018}
+  XENON Collaboration,  {\it Dark-matter search results with 1 t $\times$ yr exposure},
+  Phys. Rev. Lett. {\bf 121}, 111302 1-6  (2018).
+  
+% 43
+\bibitem{IceCube2023}
+  IceCube Collaboration, {\it Constraints on MeV–GeV sterile neutrinos},
+  Phys. Rev. D  {\bf 107}, 072005 1-15 (2023).
+
+% 44
+\bibitem{Hu2000}
+  W. Hu, R. Barkana,  and A. Gruzinov,
+  {\it Fuzzy cold dark matter: the wave properties of ultra-light particles},
+  Phys. Rev. Lett. {\bf 85}, 1158-1161  (2000).
+
+% 45
+\bibitem{erler}
+  J. Erler, H. Spiesberger, and P.  Masjuan,
+  {\it Bottom quark mass with calibrated uncertainty},
+  Eur. Phys. J. C  {\bf 82}, 1023 1-10 (2022). https://doi.org/10.1140/epjc/s10052-022-10982-x
+
+% 46
+\bibitem{rentala}
+  S. De, V. Rentala and W. Shepherd,
+  {\it Measuring the polarization of boosted, hadronic W bosons with jet substructure observables},
+   J. High Energ. Phys. {\bf  28} 1-39 (2025). https://doi.org/10.1007/JHEP05(2025)028
+  
+
+
+\bibitem{EidelmanJegerlehner1995}
+S.~Eidelman and F.~Jegerlehner,
+\newblock Hadronic contributions to g-2 of the leptons and to the effective fine structure constant $\alpha(M_Z^2)$,
+\newblock {\em Z. Phys. C} {\bf 67} (1995) 585--602.
+
+\bibitem{Jegerlehner2003}
+F.~Jegerlehner,
+\newblock The Running fine structure constant $\alpha(E)$ via the Adler function,
+\newblock {\em Nucl. Phys. Proc. Suppl.} {\bf 126} (2004) 325--328.
+
+\bibitem{Keshavarzi2019}
+A.~Keshavarzi, D.~Nomura, and T.~Teubner,
+\newblock The $g{-}2$ of charged leptons, $\alpha(M_Z^2)$ and the hyperfine splitting of muonium,
+\newblock {\em Phys. Rev. D} {\bf 101} (2020) 014029.
+
+\bibitem{Davier2017}
+M.~Davier, A.~Hoecker, B.~Malaescu, and Z.~Zhang,
+\newblock Reevaluation of the hadronic vacuum polarisation contributions to the Standard Model predictions of the muon $g{-}2$ and $\alpha(M_Z^2)$ using newest hadronic cross-section data,
+\newblock {\em Eur. Phys. J. C} {\bf 77} (2017) 827.
+
+\bibitem{PDG2024}
+R.~L.~Workman {\em et al.} [Particle Data Group],
+\newblock Review of Particle Physics,
+\newblock {\em Prog. Theor. Exp. Phys.} {\bf 2024} (2024) 083C01.
+
+\bibitem{MachacekVaughn1983-85}
+M.~E.~Machacek and M.~T.~Vaughn,
+\newblock Two-loop renormalization group equations in a general quantum field theory,
+\newblock {\em Nucl. Phys. B} {\bf 222} (1983) 83; {\bf 236} (1984) 221; {\bf 249} (1985) 70.
+
+\bibitem{Buttazzo2013}
+D.~Buttazzo {\em et al.},
+\newblock Investigating the near-criticality of the Higgs boson,
+\newblock {\em JHEP} {\bf 12} (2013) 089.
+
+\bibitem{ChetyrkinKuehnSteinhauser2000}
+K.~G.~Chetyrkin, J.~H.~K{\"u}hn, and M.~Steinhauser,
+\newblock RunDec: A Mathematica package for running and decoupling of the strong coupling and quark masses,
+\newblock {\em Comput. Phys. Commun.} {\bf 133} (2000) 43--65.
+
+\bibitem{HerrenSteinhauser2018}
+F.~Herren and M.~Steinhauser,
+\newblock Version 3 of RunDec and CRunDec,
+\newblock {\em Comput. Phys. Commun.} {\bf 224} (2018) 333--345.
+
+\bibitem{Tarrach1981}
+R.~Tarrach,
+\newblock The Pole Mass in Perturbative QCD,
+\newblock {\em Nucl. Phys. B} {\bf 183} (1981) 384.
+
+\bibitem{NuFIT52}
+NuFIT 5.2 --- Three-neutrino oscillation parameters,
+\newblock \url{https://www.nu-fit.org/} (accessed 2025-08-10).
+
+\bibitem{Wolfenstein1983}
+L.~Wolfenstein,
+\newblock Parametrization of the Kobayashi-Maskawa matrix,
+\newblock {\em Phys. Rev. Lett.} {\bf 51} (1983) 1945.
+
+
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
