@@ -188,7 +188,7 @@
  \end{equation}
  where $r_i$ is an integer rung on a $\varphi$–ladder, i.e., an integer–indexed ledger that places each species on a geometric scale with common ratio $\varphi$ (the rung assignments and invariants are fixed by the ledger),
  $\varphi = (1+\sqrt{5})/2$ is the golden ratio, 
- $B_i\in\{1,2,4,\dots\}$ a fixed coherence/multiplicity sectoral factor
+ $B_i\in\{1,2,4,\dots\}$ a fixed coherence/multiplicity sectoral factor (here "sector" denotes a class of species treated coherently on the ledger—e.g., charged leptons, neutrinos, quarks, or electroweak bosons—so $B_i$ counts how many rung‑aligned contributions add in phase for that class and is not a fit parameter)
  that counts the number of ledger–declared, rung–aligned contributions which add in
  phase for that sector,
   $E_{\rm coh}>0$ is a normalization scale used coherently across sectors (here $E_{\rm coh}=\varphi^{-5}$),
@@ -220,7 +220,7 @@
  repeated until convergence. This procedure is called "a local $\varphi$–cycle"
  because each iteration multiplies the correction by
      $\ln \varphi$, and the process cycles until it finds a self–consistent solution. 
- “Local” refers to using a single rescaling window $[x, x+\ln \varphi]$ (one $\varphi$ step)
+ "Local" refers to using a single rescaling window $[x, x+\ln \varphi]$ (one $\varphi$ step)
  to compute $f_i$.
  
  The residue decomposes into (i) a scale–window average of the species mass anomalous dimension and
@@ -256,7 +256,7 @@
  The integrand uses the same species anomalous dimensions $\gamma_i(\mu)$ that feed the
  local formulation.
  
- A convenient closed form for the weights $w_k$, which inherit the ledger’s alternating structure by construction, is
+ A convenient closed form for the weights $w_k$, which inherit the ledger's alternating structure by construction, is
  \begin{equation}
    w_k \;=\; \frac{\mathrm{sgn}(g_{k+1})\,|g_{k+1}|}{\sum_{j\ge 0} |g_{j+1}|}
    \;=\; \frac{(-1)^k\,|g_{k+1}|}{\displaystyle \sum_{m\ge 1} \frac{\varphi^{-m}}{m}}\,,\qquad
@@ -293,7 +293,7 @@
  adjacent ladder windows: shifting the probe $\mu\!\to\!\varphi^j\mu$ simply reindexes
  the sum and leaves the average invariant up to the exponentially small truncation tail.
  In practice this removes the probe--scale ambiguity that plagues local definitions without
- altering the ledger’s species geometry (carried entirely by $r_i$ and the fixed invariants).
+ altering the ledger's species geometry (carried entirely by $r_i$ and the fixed invariants).
  
  \subsection{Ledger invariants $I_m(i)$ and the rung–dependent gap series}
  \label{subsec:ledger-invariants}
@@ -311,7 +311,7 @@
    \label{eq:I1_def}
  \end{equation}
  where the chiral occupancy factor $f_\chi(r)$ is provided in \emph{closed form}
- by the ledger’s 8--beat map.
+ by the ledger's 8--beat map.
  The term  $I_1(i)$ depends only on the rung class $(r_i\bmod 8)$
  (no truncation, no weights) and is implemented directly as part of
  the invariant series used by the fixed--point solver.
@@ -891,7 +891,7 @@
  
  \bibitem{cascade-2003}
  L.  Marek-Crnjac,
- { \it The mass spectrum of high energy elementary particles via El Naschie’s
+ { \it The mass spectrum of high energy elementary particles via El Naschie's
   $E(\infty)$ golden mean nested oscillators, the Dunkerly–Southwell eigenvalue theorems and KAM},
    Chaos, Solitons \& Fractals  {\bf 18},  125-133 (2003).
  \url{https://doi.org/10.1016/S0960-0779(02)00587-8}
