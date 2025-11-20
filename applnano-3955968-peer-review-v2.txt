@@ -1,0 +1,2548 @@
+Article
+Initial Stage Flocculation of Positively Charged Colloidal
+Particles in the Presence of Ultrafine Bubbles
+
+Marita Wulandari 1,2, Santanu Saha 3* and Yasuhisa Adachi 3
+
+1 Graduate School of Science and Technology, University of Tsukuba, 1-1-1 Ten-nodai, Tsukuba 305-8572,
+
+Ibaraki, Japan
+
+2 Department of Environmental Engineering, Institut Teknologi Kalimantan, Balikpapan 76217, Indonesia
+3
+Institute of Life and Environmental Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba 305-8572,
+Ibaraki, Japan
+
+* Correspondence: saha.santanu.gp@u.tsukuba.ac.jp; Tel.: +81-80-5879-3997 (JP)
+
+Abstract: Ultrafine bubbles (UFBs) have been proposed as interfacial agents that modulate
+colloidal interactions, yet their role in early-stage flocculation remains insufficiently quanti-
+fied. Using amidine latex (AL) as a cationic model colloid under controlled end-over-end
+mixing, we combined flocculation kinetics with electrokinetic and interfacial measurements
+to elucidate the mechanism by which UFBs promote aggregation. Electrophoretic measure-
+ments show adsorption driven charge regulation by bubbles: increasing the UFBs to AL
+ratio progressively neutralizes the surface and at sufficient dose reverses its charge. The
+neutrality point occurs at a characteristic ratio that is only weakly sensitive to background
+sodium chloride (NaCl). Interfacial measurements reveal a thicker hydrodynamic layer at
+higher ionic strength, consistent with closer packing of adsorbed UFBs under double layer
+compression, and micrographs of particle dimers confirm a larger inter-particle separation
+that directly visualizes this layer. Aggregation accelerates at 10 mM sodium chloride but
+remains slow at 0.1 mM, indicating that electrolyte screening is required for efficient ad-
+sorption and bridging; pH modulated the process secondarily. Together, the results support
+a coherent picture in which UFBs adsorption creates patchy, charge-compensated surfaces
+and a soft hydrodynamic layer that enlarges the effective collision cross section, thereby
+enhancing early-stage flocculation.
+
+Keywords: Colloid particles; ultrafine bubbles; flocculation; end-over-end mixing.
+
+Received:
+
+Revised:
+
+Accepted:
+
+Published:
+
+Citation: Lastname, F.; Lastname, F.;
+
+Lastname, F. Title. Appl. Nano 2025, 1, 0.
+
+https://doi.org/
+
+Copyright: © 2025 by the authors.
+
+Submitted to Appl. Nano for possible
+
+open access publication under the
+
+terms and conditions of the Creative
+
+Commons Attri- bution (CC BY)
+
+license (https://creativecommons.
+
+org/licenses/by/4.0/).
+
+1. Introduction
+
+The rapidly growing interest in ultrafine bubbles (UFBs), defined by ISO 20480-1:2017
+as gas bubbles with diameters smaller than 1 µm, is commonly discussed alongside surface
+nanobubbles attached to solid interfaces and bulk nanobubbles dispersed in liquids [1,2].
+Unlike colloid particles, UFBs exhibit distinctive physicochemical properties, such as
+exceptionally high specific surface area, low terminal velocity, remarkable stability, efficient
+gas transfer capabilities, and the potential to generate oxygen radicals in aqueous media [3–
+5]. Owing to their negligible buoyancy, UFBs can remain suspended in water for weeks,
+during which they modulate viscosity and surface tension. UFBs have been reported
+to elevate dissolved oxygen and exhibit antibacterial activity, which is often attributed
+to the generation of reactive oxygen species (ROS) such as hydroxyl radicals (OH) at
+the gas–water interface, leading to oxidative stress in microbial cells [6–14]. Collectively,
+these attributes underpin both demonstrated and emerging applications across water and
+wastewater treatment, flotation processes, eutrophication management, phytoremediation,
+
+Version November 19, 2025 submitted to Appl. Nano
+
+https://doi.org/10.3390/applnano1010000
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+Version November 19, 2025 submitted to Appl. Nano
+
+2 of 21
+
+aquaculture, and interface cleaning [5,15–18]. Recent reviews have highlighted novel
+roles for UFBs in biomedical fields e.g., drug delivery, biofilm disruption and energy
+processes e.g., electrochemical reactions, emphasizing that a comprehensive understanding
+of UFBs–particle interactions is critical for expanding their utility [2,5].
+
+A notable characteristic of UFBs is their negatively charged surface, generally at-
+tributed to the enrichment of hydroxide ions (OH−) at the gas–water interface [19–22].
+This surface charge strongly influences their interactions with particles, solutes, and other
+bubbles, often persisting across a broad range of pH and electrolyte conditions [19,21,23].
+Numerous studies have shown that UFBs can significantly enhance the separation of fine
+solids, dissolved ions, oils, and organic contaminants through flotation or coagulation
+techniques [16,24]. In the context of particle aggregation, Schubert suggested that UFBs
+promote bridging between hydrophobic surfaces [25], while Liu and coworkers observed
+stronger agglomeration of coal particles with increasing hydrophobicity [26]. Capillary
+bridging by nanoscale bubbles has been directly reported, with the interaction switching
+from attractive to repulsive depending on interfacial conditions [27,28]. Furthermore, there
+is evidence of synergy with polymer flocculants, such as cationic polyacrylamide, which
+enlarges flocs and improves clarification in kaolin systems [16,29]. UFBs also interact
+with particles and interfaces in ways that modify electrokinetic properties and promote
+aggregation, including bubble-mediated nanoparticle interactions and charge modulation
+[30].
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+43
+
+44
+
+45
+
+46
+
+47
+
+48
+
+49
+
+50
+
+51
+
+52
+
+55
+
+57
+
+59
+
+58
+
+54
+
+53
+
+Numerous studies have reported the effectiveness of UFBs in various applications,
+including industrial processes, water and wastewater treatment, and as reacting agents in
+chemical processes [31]. However, the mechanisms underlying their remarkable effective-
+ness remain unclear, prompting this investigation into the flocculation induced by UFBs. A 56
+key insight driving this analysis is the significance of colloidal and interfacial aspects of
+UFBs, particularly their negative charge and their ability to enhance collision frequency by
+depositing onto substrates. These characteristics likely activate numerous chemical and bio-
+chemical reactions, making them crucial for effective flocculation. For example, UFBs have
+been shown to enhance reaction rates in processes such as oxidation and degradation of
+pollutants, demonstrating their potential as efficient catalyzing agents in various chemical
+systems. Existing reports have demonstrated charge inversion and reentrant condensation
+in cationic systems under gas supersaturation [32]; however, controlled assessments under
+defined turbulence and ionic environments that resolve electrokinetic changes and aggrega-
+tion pathways are scarce. While the DLVO framework provides a baseline for electrostatic
+and van der Waals interactions, it is often insufficient to describe aggregation mediated by
+UFBs. In systems involving UFBs, non-DLVO forces, such as hydrophobic interactions and
+gas-mediated capillary bridging, are known to play a decisive role. This study therefore
+focuses on experimentally quantifying these combined effects, with a particular emphasis
+on the UFBs-specific mechanisms that operate alongside or beyond classic DLVO theory.
+Direct force measurements between hydrophobized solids revealed an extra attraction
+that persists even when a continuous gas phase is excluded, which cannot be explained
+by DLVO alone [33]. Complementary AFM imaging showed that hydrophobized surfaces
+are decorated by stable surface nanobubbles, providing a physical pathway for capillary
+bridging over a finite range [34].
+
+61
+
+60
+
+68
+
+62
+
+63
+
+64
+
+65
+
+66
+
+67
+
+69
+
+72
+
+70
+
+71
+
+75
+
+73
+
+74
+
+76
+
+In a series of systematic investigations, our research group established end-over-end
+rotation as a standardized turbulent mixing platform for quantifying collision frequency
+and rapid coagulation, encompassing a wide range of phenomena from kinetic frame-
+works to breakup behavior under turbulent conditions [35,36]. Within this framework, we
+mapped the polymer-driven flocculation mechanisms through polyelectrolyte adsorption
+and bridging on monodisperse polystyrene latex, elucidating how factors such as molecu-
+
+77
+
+78
+
+79
+
+80
+
+81
+
+82
+
+Version November 19, 2025 submitted to Appl. Nano
+
+3 of 21
+
+lar weight, charge density, ionic strength, and post-adsorption relaxation influence both
+mobility and early-stage aggregation [37–39]. We subsequently extended this approach to
+particulate flocculants and demonstrated that adsorption layers formed from sustainable
+clays, polyelectrolyte complexes, and microgels expand the effective collision radius and
+accelerate early-stage flocculation within the same turbulent mixing environment [40–42].
+These findings contribute to a fundamental principle: the deposition of a soft or particulate
+interfacial layer that extends into the flow effectively increases the geometric collision cross
+section and fosters bridging interactions, thereby enhancing aggregation.
+
+83
+
+84
+
+85
+
+86
+
+87
+
+88
+
+89
+
+90
+
+92
+
+94
+
+93
+
+91
+
+95
+
+96
+
+Guided by this principle, rather than investigating UFBs as direct flocculants, we as-
+sess their potential role as bridging and activation agents by depositing them onto cationic
+colloids to modulate their surface charge, which in turn enhances collision efficiency under
+standardized turbulence. Amidine latex serves as a well-defined cationic model, and we
+systematically vary pH, NaCl concentration, and UFBs concentration while maintaining
+consistent mixing conditions. We focused on pH 6 and pH 9, where UFBs remain stably
+anionic due to hydroxide adsorption at the gas–water interface [43–45], while amidine
+latex particles possess a positive charge below their isoelectric point (pH 10) [46,47]. This
+setup ensures distinct conditions for charge compensation and patch flocculation. Floc-
+culation kinetics are quantified using a Coulter counter, while electrophoretic mobility
+tracks interfacial charge modulation and potential inversion. Additionally, Brownian mo-
+tion analysis provides insights into the hydrodynamic layer thickness. This integrated 102
+design facilitates direct examinations of UFBs-mediated charge modulation and bridg-
+ing in a cationic colloid. We observe that UFBs solutions can significantly modify the
+electrophoretic properties of positively charged amidine latex, including charge inversion
+under specific conditions, with aggregation reaching its peak within a narrow pH range
+near the isoelectric point, where electrostatic repulsion is minimized. To our knowledge,
+few studies have comprehensively mapped the combined effects of pH, ionic strength,
+and UFBs concentration on both electrokinetic and kinetic properties of a well-defined 109
+cationic colloid under controlled turbulence. The present dataset addresses this research
+gap and provides a quantitative foundation for interpreting how charged UFBs interact
+with charged particles in flocculation-relevant environments.
+
+107
+
+112
+
+106
+
+104
+
+103
+
+105
+
+108
+
+111
+
+110
+
+100
+
+101
+
+97
+
+98
+
+99
+
+Figure 1. Schematic illustration of the this study of colloidal and UFBs interactions under standardized
+mixing. System components include positively charged AL particles, negatively charged UFBs,
+dissolved ions Na+ and Cl− controlling ionic strength (Debye length κ−1), interfacial H+/OH−
+associated with pH, and water as the continuous medium. Electrostatic attraction promotes the
+adsorption of UFBs onto AL surfaces, while UFBs–UFBs electrostatic repulsion governs their lateral
+arrangement and becomes increasingly screened at higher NaCl concentrations. The progressive
+accumulation of UFBs at the AL interface leads to the development of localized charge patches
+and the formation of an interfacial hydrodynamic layer that may subsequently influence aggregate
+formation and evolution.
+
+Version November 19, 2025 submitted to Appl. Nano
+
+2. Experimental
+2.1. Materials
+
+4 of 21
+
+113
+
+114
+
+Positively charged amidine-functionalized polystyrene latex (AL) particles, sourced 115
+
+from Thermo Fisher Scientific Inc. (Waltham, MA, USA), were utilized as model colloids,
+exhibiting an average diameter of 1.0 ± 0.044 µm. According to the manufacturer’s specifi-
+cations, these particles possess a surface charge density of 15.6 µcm−2 and a specific surface
+area of 5.7×104 cm2g−1. For all experimental trials, the AL suspension was prepared at a
+constant particle concentration of 5×107 cm−3. Prior to experimentation, the suspensions
+were sonicated at 100 kHz for 30 minutes to ensure uniform dispersion and to minimize
+the formation of aggregates. The hydrodynamic diameter of the AL particles was verified 122
+using dynamic light scattering (DLS) with the Zetasizer Nano-ZS and was confirmed to
+be 1.0 ± 0.044µ m after sonication, consistent with the specification of manufacturer and 124
+indicating a monodisperse suspension.
+
+119
+
+116
+
+123
+
+120
+
+121
+
+125
+
+118
+
+117
+
+Ultrafine bubbles (UFBs) were generated using a UFBs generator (HACK FB11,
+LIVINGENER-GIES & Co., Shizuoka, Japan) with air filtered through a 0.22 µm mem-
+brane (Advantech, Toyo Roshi Kaisha Ltd., Tokyo, Japan) as the gas source based on the
+pressurized dissolution method, where air is dissolved into water under pressure and then
+released at atmospheric pressure to form a dense suspension of UFBs. The detailed method-
+ology for UFBs generation has been reported elsewhere [48]. No additional chemicals or
+surfactants were used in the generation process. The produced UFBs were subsequently
+transferred into a glass screw jar, after which their size and concentration distributions were
+assessed using a NanoSight instrument (NanoSight-LM10, MALVERN, UK), as illustrated 134
+in Fig. 2. Sample imaging and data analysis were conducted with the NTA measurement
+
+133
+
+130
+
+126
+
+127
+
+128
+
+129
+
+131
+
+132
+
+Figure 2. Typical size distributions of air UFBs generated in H2O measured by NanoSight using
+the NTA method 10 minutes after generation. The inset image corresponds to a snapshot of UFBs
+extracted from the corresponding NTA video. The red bars are showing standard error. Additional
+samples are provided in Fig. S3 of the supplementary materials .
+
+135
+software (version 3.2, Development Build 3.2.16). As UFBs undergo random motion and 136
+frequently collide within the suspension, the resulting size distribution profile often ex-
+hibited multiple distinct peaks, as illustrated in Fig. 2. NTA was selected over Dynamic
+Light Scattering (DLS) for this specific analysis because it provides superior resolution for
+polydisperse systems and directly measures concentration on a particle-by-particle basis,
+which is crucial for accurately quantifying the number of bubble-particle collisions [49].
+
+137
+
+138
+
+141
+
+139
+
+140
+
+Version November 19, 2025 submitted to Appl. Nano
+
+5 of 21
+
+While DLS (via the Zetasizer) is highly effective for measuring the average hydrodynamic
+diameter of monodisperse colloids like the AL, it can underestimate the presence of larger
+species in a polydisperse mixture and does not yield a direct particle count. According to
+the NTA data, the UFBs predominantly exhibited sizes in the range of 100 to 300 nm, with
+a measured concentration of 1.93±0.32 × 108 cm−3. The UFBs suspension demonstrated a
+pH of 6.9±0.3 and an electrical conductivity of 8.11 µS cm−1. The pH was measured using
+a glass electrode pH meter (DKK-TOA Corporation, Tokyo, Japan), and the conductivity
+was determined using a conductivity meter (DKK-TOA Corporation, Tokyo, Japan). For all
+experiments, the UFBs concentration was maintained at 1 × 108 particles cm−3.
+
+142
+
+143
+
+144
+
+145
+
+146
+
+147
+
+148
+
+149
+
+150
+
+151
+
+The stability of the UFBs over the experimental timeframe is supported by extensive
+literature reporting their longevity in suspension, from several days to weeks, due to their
+negligible buoyancy and electrostatic stabilization [3,4,50]. This is further corroborated 153
+in our system by the persistent hydrodynamic layer thickness observed over time, which
+aligns with the duration of our flocculation kinetics measurements. The polydisperse nature
+of our UFB suspension, evidenced by the multi-peak size distribution in Fig. 2, is charac-
+teristic of such systems as reported in literature[50,51]. This heterogeneity implies that
+different-sized UFBs contribute distinctively to the flocculation process: smaller UFBs likely
+dominate surface coverage and charge modulation due to their higher number density,
+while larger UFBs may be more effective in creating substantial hydrodynamic layers and 160
+longer-range bridging interactions.
+
+159
+
+152
+
+155
+
+154
+
+156
+
+157
+
+158
+
+161
+
+162
+
+The generated UFBs possessed a negative surface charge, characterized by an average
+zeta potential of -15.3 ± 2.25 mV at pH 6.9, consistent with previously reported values
+by Ushikubo et al. [52]. This negative charge was consistently observed across the ionic
+strengths used in this study, as confirmed by EPM measurements (Fig. A1, Appendix A.2).
+The ionic strength in the experiments was controlled by preparing NaCl solutions
+at concentrations of 0.1 mM and 10 mM. These ionic strengths correspond to estimated 167
+electrical double layer (EDL) thicknesses of approximately 30 nm and 3 nm, respectively,
+enabling an investigation of particle interactions under varying EDL conditions. This allows
+for a clear comparison between conditions where long-range electrostatic forces dominate
+(NaCl 0.1 mM) and where they are significantly screened (NaCl 10 mM). [35,39]. Prior to
+use, the NaCl solutions were filtered through an Advantech membrane filter (0.22 µm pore
+size; Toyo Roshi Kaisha Ltd., Tokyo, Japan) to remove impurities.
+
+170
+
+163
+
+164
+
+165
+
+172
+
+166
+
+169
+
+168
+
+171
+
+173
+
+The pH of the background solutions was adjusted using hydrochloric acid (HCl)
+and sodium hydroxide (NaOH) (JIS special grade, Wako Pure Chemical Corporation Ltd.,
+Osaka, Japan) and was monitored using a pH meter (LAQUAtwin, ASONE Corporation,
+Japan). The portable LAQUAtwin meter was used for all experimental pH adjustments and
+monitoring during flocculation trials, while the initial characterization of the UFB stock
+suspension was performed with a benchtop glass electrode meter (DKK-TOA Corporation).
+Both instruments were calibrated daily using standard pH buffers to ensure measurement
+consistency. All experiments were conducted under temperature-controlled conditions at
+20◦C to ensure reproducibility. The reported values for pH and ionic strength refer to the
+final, measured values of the mixed suspension after all components were combined, prior
+to flocculation and electrokinetic measurements.
+
+2.2. Electrophoretic mobility measurement
+
+The electrophoretic mobility (EPM) of the particles was determined using a Zetasizer
+Nano-ZS (Malvern Instruments, Worcestershire, UK). Measurements were performed in
+a disposable folded capillary cell designed for electrokinetic analyses. The instrument
+employs laser Doppler velocimetry (LDV) combined with dynamic light scattering (DLS)
+to quantify particle motion under an applied electric field of 11.3 V cm−1. For each sample,
+
+174
+
+175
+
+176
+
+177
+
+178
+
+179
+
+180
+
+181
+
+182
+
+183
+
+184
+
+185
+
+186
+
+187
+
+188
+
+189
+
+190
+
+Version November 19, 2025 submitted to Appl. Nano
+
+6 of 21
+
+three independent measurements were conducted, and each measurement consisted of 12
+sub-runs to ensure statistical reliability and reproducibility.
+
+2.3. Rate of flocculation measurement
+
+191
+
+192
+
+193
+
+The rate of flocculation was evaluated under two distinct conditions: salt-induced 194
+
+197
+
+195
+
+rapid coagulation and UFBs-induced aggregation. In the salt-induced experiments, AL sus-
+pensions were mixed with an equal volume of 2.0 M NaCl solution using an end-over-end 196
+rotation device, as described previously [35,38]. Results of the salt-induced flocculation
+experiments are provided in A1 (Appendix A.1). For the UFBs-induced flocculation experi-
+ments, the AL suspension (of concentration 1 × 108cm−3) was combined with the UFBs
+suspension and, where required, NaCl solution in a forked flask, and mixed at a controlled
+frequency of 1 Hz. Flocculation dynamics were quantified by monitoring aggregate forma-
+tion over time using a Coulter counter (Multisizer 4e; Beckman Coulter Inc., Brea, USA). To
+achieve further aggregation prior to measurement, samples were gently aspirated, diluted 203
+with distilled water, and 0.5 mL of the diluted suspension was subsequently introduced 204
+into an isotonic electrolyte to obtain a particle concentration suitable for analysis. The initial
+flocculation rate was determined from the slope of ln(N(t)/N(0)) versus time. A linear fit
+is appropriate for quantifying the initial rate under our dilute conditions and short time
+scales, where the aggregation is dominated by the formation of doublets and can be treated
+as a pseudo-first-order process with respect to the primary particle concentration [35,36].
+
+198
+
+200
+
+207
+
+201
+
+205
+
+202
+
+208
+
+199
+
+206
+
+209
+
+2.4. Hydrodynamic Layer Thickness Measurement
+
+210
+
+The hydrodynamic layer thickness of UFBs adsorbed onto colloidal particles was
+determined by comparing the diffusion coefficients of bare AL particles with those of AL 212
+particles bearing adsorbed UFBs. Brownian motion of individual particles was monitored 213
+using an optical microscope (BX50, Olympus, Tokyo, Japan) equipped with a CCD video
+camera (WV-BL200, Matsushita Co., Ltd., Yamanashi, Japan). The translational diffusion
+coefficient was obtained from the mean-square displacement of particle trajectories and 216
+evaluated using the Einstein relation [38]. The detailed experimental protocol has been
+described previously [53].
+
+218
+
+211
+
+215
+
+217
+
+214
+
+Microscopy and image analysis of dimer geometries
+
+219
+
+220
+
+Videos of 1 µm AL particles were recorded at constant illumination and magnification to
+capture pairs in close proximity and dimers containing an interposed object consistent with
+an UFBs. Video files were exported to image sequences and processed in ImageJ (NIH,
+Bethesda, USA) to improve contrast. Interparticle distance was quantified as the center
+to center separation for AL pairs and, for dimers with a putative UFBs, as the maximum 224
+center to center separation observed over the sequence. As a control, standard AL dimers
+without an interposed object were measured to confirm the expected separation of two
+contacting particles. All measurements were performed in the open source software Nano
+Measurer 1.2 (Fudan University, Shanghai, China) with the image scale calibrated from 228
+the known particle diameter 1 µm. Particle centers were identified manually, and multiple
+dimers across several frames and fields of view were analyzed.
+
+223
+
+222
+
+221
+
+226
+
+227
+
+229
+
+230
+
+225
+
+3. Results and Discussion
+3.1. Electrophoretic mobility
+
+Fig. 3 presents the electrophoretic mobility of amidine latex (AL) particles as a function
+of the concentration ratio of ultrafine bubbles (UFBs) to AL at two NaCl concentrations
+(0.1 mM and 10 mM). The pH of the suspensions was maintained at 6.0 ± 0.3 , and the
+AL concentration was fixed at 5×107 particles cm−3. With increasing UFBs concentration,
+the mobility decreased monotonically, approaching an isoelectric condition at a ratio near
+
+231
+
+232
+
+233
+
+234
+
+235
+
+236
+
+237
+
+Version November 19, 2025 submitted to Appl. Nano
+
+7 of 21
+
+unity, and then became negative at higher UFBs loadings. These trends are consistent
+with the anionic character of UFBs and with Fig. A2 (Appendix A.2), where increasing salt
+concentration drives the UFBs mobility toward zero. This behavior aligns with Montazeri
+
+238
+
+239
+
+Figure 3. Electrophoretic mobility of AL particle as a function of the UFBs/AL concentration ratio
+(logarithmic scale) studied at two NaCl concentrations (0.1 and 10 mM). The pH was maintained at
+6.0 ± 0.3. Error bars denote the standard deviation of three independent measurements. The dashed
+vertical lines indicate the interpolated concentration ratios at the charge neutralization point (CNP)
+for each salt condition.
+
+240
+
+242
+
+243
+
+244
+
+246
+
+245
+
+247
+
+241
+
+et al. [54], who reported that an increase in ionic strength reduces the magnitude of the
+zeta potential by compressing the electrical double layer and thereby decreasing the Debye
+length. This behavior reflects progressive neutralization of the AL surface charge by
+negatively charged UFBs, followed by overcompensation that leads to charge reversal.
+Notably, the position of the charge neutralization point showed little dependence on NaCl
+concentration, indicating that the UFBs-induced modification of AL surfaces is robust
+against changes in ionic strength within the studied range. This response corresponds
+to the attainment of the charge neutralization point (CNP) at a characteristic UFBs/AL 248
+ratio, where attractive inter-particle interactions are maximized. The precise UFBs/AL 249
+ratio at the CNP was approximately 2.08 for 0.1 mM NaCl and 2.15 for 10 mM NaCl, as
+interpolated from Fig. 3. Based on this finding, the UFBs concentration in subsequent
+flocculation experiments was selected close to the CNP value, 1 ×108 particles cm−3, while
+the AL concentration was maintained fixed at 5× 107 particles cm−3 to ensure effective
+charge compensation and promote aggregation. This corresponds to a UFBs/AL ratio of
+2.0, which is near the CNP and was chosen to ensure a condition of significant charge
+neutralization while remaining within a practical and consistent dosage framework for
+the flocculation kinetics study. The progressive neutralization and eventual reversal of the
+AL surface charge provide direct electrokinetic evidence for the adsorption of negatively
+charged UFBs onto the cationic particles. This conclusion is further supported by the forma-
+tion of a measurable hydrodynamic layer around the particles and the visual evidence of
+increased inter-particle separation in dimer micrographs (discussed in subsequent sections).
+Together, these data confirm that UFBs adsorb to the AL surface, forming a stable interfacial
+layer that modulates both electrostatic and steric interactions. Such surface modification is
+expected to enhance hetero-interactions between UFBs and AL particles, thereby facilitating
+aggregation.
+
+250
+
+251
+
+254
+
+252
+
+253
+
+255
+
+256
+
+263
+
+261
+
+262
+
+257
+
+259
+
+258
+
+260
+
+264
+
+265
+
+Version November 19, 2025 submitted to Appl. Nano
+
+3.2. Hydrodynamic layer thickness
+
+8 of 21
+
+266
+
+The temporal evolution of the hydrodynamic layer thickness of amidine latex (AL)
+particles after the addition of UFBs at two NaCl concentrations (0.1 mM and 10 mM) and 268
+pH values of 6 and 9 is shown in Fig. 4. The thickness was calculated by comparing
+the diffusion coefficients of bare and UFBs-coated AL particles. At pH 6, hydrodynamic
+
+267
+
+269
+
+Figure 4. The temporal evolution of the hydrodynamic layer thickness of AL particle with adsorbed
+UFBs as a function of pH and NaCl concentration.
+
+270
+
+271
+
+274
+
+276
+
+278
+
+275
+
+277
+
+272
+
+273
+
+layer thickness was approximately 141 nm at 0.1 mM NaCl and increased to 182 nm at
+10 mM NaCl. A similar trend was observed at pH 9, with hydrodynamic layer thickness
+values of 133 nm at 0.1 mM and 182 nm at 10 mM NaCl. The increase in hydrodynamic
+layer thickness at higher ionic strength (10 mM NaCl where EDL thickness 3 nm) can
+be attributed to electrostatic screening, which weakens the mutual repulsion among ad-
+sorbed negatively charged UFBs and allows closer packing on the cationic AL surface.
+This screening facilitates a higher surface coverage and denser packing of UFBs, which
+enhances the apparent interfacial layer thickness. In systems involving rigid, monodisperse
+particle depositions, the hydrodynamic layer thickness is typically constant and defined 279
+by the diameter of the deposited particle, showing little dependence on ionic strength [42].
+The observed increase here suggests that UFBs, unlike solid latex particles, may exhibit
+unique interfacial properties such as softness, deformability, or polydispersity that cause
+the consolidated layer to present a thicker hydrodynamic barrier when densely packed.
+The differences in thickness between 0.1 mM and 10 mM NaCl are consistent and exceed 284
+the measurement uncertainty, as indicated by the error bars in Fig. 4. This agrees with the
+findings of Zhang et al. [55] who showed that nanobubble size and surface potential are
+highly sensitive to solution chemistry, particularly pH and ionic composition. Their study
+demonstrated that the zeta potential of nanobubbles becomes more negative at higher pH 288
+due to enhanced OH− adsorption at the gas–liquid interface, while bubble size decreases
+with increasing pH, reflecting stabilization by stronger electrostatic repulsion [50,56,57].
+The pH dependence of the EPM of AL-UFBs suspensions at 0.1 mM NaCl, is explained 291
+in Fig. A3 (Appendix A.3). In the context of the present results, the relatively small effect
+of pH (6 vs. 9) on hydrodynamic layer thickness at low ionic strength (0.1 mM NaCl) can
+be understood by considering that AL particles remain strongly cationic across this range,
+ensuring continued electrostatic attraction with UFBs. However, once the ionic strength
+is increased, EDL compression dominates over pH effects, leading to nearly identical
+hydrodynamic layer thickness at pH 6 and 9. Therefore, the thicker hydrodynamic layers
+observed at elevated NaCl concentration likely arise from a combination of electrostatic
+
+283
+
+281
+
+282
+
+280
+
+287
+
+293
+
+292
+
+289
+
+285
+
+290
+
+286
+
+296
+
+297
+
+295
+
+294
+
+298
+
+Version November 19, 2025 submitted to Appl. Nano
+
+9 of 21
+
+screening and enhanced UFBs stability under high ionic conditions, as previously linked to
+reduced UFBs size and stronger interfacial interactions in cavitation-generated UFBs.
+
+To further substantiate the presence of an interfacial layer, optical micrographs of
+amidine latex (AL) particles were analyzed to quantify the separation distance between
+particle dimers in the presence and absence of UFBs (Fig. 5). Analysis of 10 dimer pairs in
+suspensions containing UFBs showed a mean center-to-center distance of 1.37±0.04 µm,
+whereas analysis of 10 dimer pairs in control samples without UFBs showed a mean separa-
+tion of 1.112±0.02 µm. The representative images in Fig. 5 depict dimers with separations
+close to these mean values. The observed increase of approximately 0.25 µm provides strong
+evidence for the formation of a hydrodynamic or interfacial layer between AL particles. (All
+individual distance measurements are provided in the supplementary material, Table S1
+and representative micrographs processed for analysis are shown in Figs. S1, S2 ). This layer
+is most plausibly attributed to UFBs adsorbed at the particle surface, effectively enlarging
+the apparent spacing between colloidal dimers. Similar increases in interfacial spacing
+have been previously reported for UFBs adsorption at solid–liquid interfaces, where UFBs
+were shown to contribute to longer-range interactions between colloids [58,59].
+
+Figure 5. Representative microscopic images of AL dimers at pH 6.0 ±0.3 and 0.1 mM NaCl: (a) AL
+in the presence of UFBs, showing an increased center-to-center separation; (b) AL in the absence of
+UFBs (control).
+
+299
+
+300
+
+301
+
+302
+
+303
+
+304
+
+305
+
+306
+
+307
+
+308
+
+309
+
+310
+
+311
+
+312
+
+313
+
+314
+
+316
+
+315
+
+317
+
+The proposed mechanism for UFBs–particle interactions is illustrated in Fig. 6. In the
+absence of UFBs, AL particles exhibit a stable positive charge due to their amidine func-
+tional groups, maintaining electrostatic repulsion that prevents close contact (Fig. 6a). Upon
+introduction of negatively charged UFBs, adsorption onto the AL surface occurs, progres-
+sively reducing the net positive charge (Fig. 6b). This results in partial charge neutralization
+and a decrease in the electrostatic repulsion between particles. As the system approaches
+the CNP (Fig. 6c), electrostatic repulsion is minimized and short-range attractive forces
+promote aggregation. Further UFBs adsorption eventually overcompensates the surface
+charge, leading to charge reversal and the formation of negatively charged aggregates
+(Fig. 6d). These observations align with the findings of Zhang [30], who demonstrated 324
+preferential adsorption of nanobubbles onto amidine-functionalized polystyrene surfaces,
+resulting in modified electrostatic states and altered aggregation behavior. Taken together,
+the micrographs and mechanistic framework provide direct visual and conceptual evi-
+dence that UFBs play an active role in modulating colloidal interactions through interfacial
+adsorption, charge regulation, and the creation of a hydrodynamic separation layer.
+
+318
+
+320
+
+326
+
+319
+
+322
+
+327
+
+323
+
+321
+
+325
+
+328
+
+329
+
+Version November 19, 2025 submitted to Appl. Nano
+
+10 of 21
+
+Figure 6. Proposed mechanism for the interaction between UFBs and positively charged AL particles:
+(a) stable AL suspension, (b–c) progressive adsorption of UFBs leading to surface charge neutralization
+and reduced electrostatic repulsion, and (d) further adsorption resulting in charge reversal and
+negatively charged aggregates.
+
+3.3. Rate of flocculation
+
+330
+
+337
+
+334
+
+335
+
+340
+
+338
+
+332
+
+333
+
+331
+
+339
+
+The flocculation behavior of AL suspensions induced by UFBs under varying NaCl
+concentrations and pH conditions was investigated by monitoring the temporal evolution
+of aggregate formation. The initial aggregation dynamics were quantified from the time
+variation of the temporal variation of the normalized cluster number, expressed as ln N(t)
+N(0) ,
+where N(t) denotes the number of aggregates per unit volume at time t and N(0) is the
+initial value. Figures 7a and 7b present the results obtained at pH 6.0 ± 0.3 and 9.0 ± 336
+0.3, respectively, under NaCl concentrations of 0.1 and 10 mM to probe distinct electro-
+static regimes. The influence of pH on the flocculation kinetics is systematic and can be
+rationalized by the protonation-dependent surface charges of the system components. The
+experiments were conducted at pH 6.0 and 9.0 to probe distinct electrostatic regimes. At
+pH 6.0, the amidine groups of the AL particles are strongly protonated, maintaining a
+high positive charge density that ensures a strong electrostatic driving force for the ad-
+sorption of anionic UFBs. In contrast, at pH 9.0, the AL particles approach their IEP ( 10),
+leading to a significantly reduced positive charge density. For comparison, the dashed 344
+line denotes rapid coagulation kinetics induced by 1 M NaCl, representative of diffusion
+limited aggregation (Fig. A1, Appendix A.3). At low NaCl concentration (0.1 mM), the
+decrease in N(t)/N(0) proceeded slowly at both pH values, reflecting limited aggregation
+of the AL suspension. This can be attributed to the persistence of thick electrostatic double
+layers around AL particles, which sustain long range repulsive forces and hinder UFBs
+mediated bridging [60,61]. Under these conditions, the attractive interactions generated 350
+by UFBs adsorption are insufficient to overcome the repulsive energy barrier, resulting
+in a reduced aggregation rate. In contrast, at 10 mM NaCl the aggregation rate increased 352
+markedly. The enhanced kinetics can be explained by compression of the electrical dou-
+ble layer, which reduces electrostatic repulsion and allows UFBs to approach and adsorb
+more effectively onto AL surfaces. Adsorption creates localized charge inhomogeneities
+that act as “patches” of opposite polarity, thereby promoting patch flocculation [62]. At a
+UFBs/AL ratio near the CNP, this effect is amplified: charge neutralization and localized 357
+adsorption sites combine to maximize aggregation rates [63]. Importantly, the acceleration
+observed at 10 mM NaCl cannot be attributed to salt effects alone but indicates a syner-
+
+345
+
+343
+
+342
+
+341
+
+346
+
+348
+
+347
+
+353
+
+349
+
+354
+
+351
+
+359
+
+358
+
+355
+
+356
+
+Version November 19, 2025 submitted to Appl. Nano
+
+11 of 21
+
+(a)
+
+(b)
+
+Figure 7. Temporal variation of AL flocculation induced by UFBs at two pH values: (a) 6.0± 0.3
+and (b) 9.0± 0.3, under NaCl concentrations of 0.1 mM and 10 mM. The dashed line represents the
+salt-induced rapid coagulation using 1 M NaCl.
+
+362
+
+360
+
+363
+
+364
+
+361
+
+gistic contribution from UFBs adsorption and interfacial charge regulation. In addition
+to electrostatic charge compensation and patch bridging, adsorbed UFBs generate a soft,
+hydrodynamic layer that enlarges the effective collision radius. While this layer is likely
+penetrable (violating a strict hard-sphere assumption), it facilitates initial contact and in-
+creases the probability of particles entering the range where short-range attractive forces
+(e.g., capillary bridging, hydrophobic interactions) can act to form a stable dimer. This
+mechanism is analogous to flocculation induced by other soft interfacial materials, such
+as microgels and polyelectrolyte complexes, where a protruding layer increases the colli-
+sion efficiency without requiring a rigid, impenetrable shell [39,41]. Prior work measured 368
+attractive forces between hydrophobic surfaces that remained significant even when an
+intervening gas phase was removed, indicating a residual hydrophobic force [33]. AFM 370
+studies also revealed persistent surface nanobubbles on hydrophobic substrates, consistent
+with capillary bridges that act over tens to hundreds of nanometers [34]. In our system,
+UFBs deposition likely creates patchy, locally more hydrophobic surface domains; when
+two AL particles approach, interposed UFBs can form transient bridges that supplement
+electrostatic charge neutralization and increase the effective capture radius. This view 375
+aligns with reports of nanobubble-mediated capillary attractions and with charge inversion
+and reentrant condensation phenomena in AL systems under gas supersaturation. The role
+of pH further modulated the aggregation dynamics.
+
+372
+
+371
+
+374
+
+367
+
+365
+
+366
+
+373
+
+369
+
+378
+
+377
+
+376
+
+379
+
+To quantify the UFB-induced enhancement, we calculated the enhancement factor (β)
+for UFBs-induced AL aggregation under standardized end-over-end mixing (Fig. 7 and 380
+Table 1). At 0.1 mM NaCl, β is sub unity at pH 6.0 and 9.0 (0.81 and 0.44, respectively),
+indicating that under weak screening the anionic UFBs interface partially stabilizes the
+suspension relative to the 1 M salt rapid coagulation reference. At 10 mM NaCl, β increases
+above unity for both pH conditions, reaching 2.15 at pH 6.0 and 1.60 at pH 9.0 . This rise
+with ionic strength is consistent with reduced electrostatic barriers that allow UFBs to act as
+effective submicron bridges and to increase collision efficiency. The pH dependence follows
+the expected charge pairing between anionic UFBs and cationic AL. At the lower pH,
+amidine groups are more protonated and the UFBs surface potential is closer to neutrality,
+which together promote attachment and a larger effective collision radius. The stronger
+enhancement at pH 6 compared with pH 9 therefore points to a regime where bubble
+mediated bridging outweighs residual electrostatic repulsion. When benchmarked against
+conventional flocculants studied in the same mixing framework, the observed β values are
+
+385
+
+381
+
+382
+
+383
+
+384
+
+386
+
+387
+
+388
+
+389
+
+392
+
+390
+
+391
+
+Version November 19, 2025 submitted to Appl. Nano
+
+12 of 21
+
+Table 1. Enhancement factor (β) for UFBs-induced flocculation under different conditions.
+
+pH sample
+
+6.0 ± 0.3
+9.0 ± 0.3
+
+0.1 mM
+
+0.81
+0.44
+
+10 mM
+
+2.15
+1.60
+
+396
+
+394
+
+393
+
+modest. For instance, microgel adsorption and oppositely charged particle systems yielded
+higher β values of 3.88 and 2.8, respectively [41,42] This difference in efficacy can be
+attributed to fundamental mechanistic distinctions. Microgels and branched polymers form 395
+extensive, protruding hydrodynamic layers that drastically increase the collision radius,
+and polymers can form strong, multi-point bridges between particles [41,64]. Branched 397
+polymers gave lower β near isoelectric conditions but very large β above isoelectric dosage,
+where classical polymer bridging dominates, reaching about 15 at 0.1 mM and 7 at 10 mM 399
+NaCl [64]. Together these comparisons indicate that β is controlled by flocculant type and 400
+size, ionic strength and pH, and the dynamics of the adsorbed layer during the initial stage
+of aggregation. In contrast, the UFBs in this study (100–300 nm) form a comparatively thin-
+ner and softer interfacial layer. While this layer effectively neutralizes charge and facilitates
+bridging, the individual UFBs bridges are likely less robust and provide a smaller geometric
+cross-section for collision than a flexible polymer chain or a large, deformable microgel.
+Therefore, UFBs act as milder flocculation agents. A broader comparison of UFBs-induced 406
+effects with other bubble-particle interaction studies reported in the literature is provided 407
+in Appendix A.4 (Table A1). Their potential application likely lies not in outperforming
+high-efficiency polymers, but in scenarios where their unique properties such as being
+chemical-free, providing gas supplementation, or inducing radical-based reactions
+
+403
+
+401
+
+398
+
+402
+
+404
+
+405
+
+408
+
+409
+
+410
+
+This study focused on the initial flocculation kinetics, which govern the formation
+of UFB-particle aggregates. The long-term stability of these aggregates and the fate of the
+incorporated UFBs present intriguing questions for future research. The dissolution of a
+UFBs confined within an aggregate may be kinetically hindered, potentially stabilizing the
+aggregate structure. Furthermore, the presence of UFBs is not solely structural. Given their
+reported role in enhancing reaction rates, such as in the oxidation of pollutants [7], the initial
+formation of UFBs-particle aggregates could actively promote the catalytic transformation
+of contaminants within the flocs. Investigating this coupled process of aggregation and 418
+reaction represents a critical and compelling next step for assessing the full potential of
+UFBs-mediated processes in water treatment.
+
+412
+
+411
+
+415
+
+413
+
+414
+
+416
+
+417
+
+420
+
+419
+
+4. Conclusions
+
+421
+
+423
+
+422
+
+This study provides a novel, quantitative analysis of the initial-stage flocculation of
+cationic colloids induced by anionic ultrafine bubbles (UFBs) under well-controlled tur-
+bulent mixing. While the ability of bubbles to interact with particles is known, the sys-
+tematic and simultaneous tracking of electrokinetic properties, hydrodynamic layer thick-
+ness, and aggregation kinetics as performed here delivers new insights. We quantitatively
+establish that UFBs adsorb onto cationic amidine latex (AL) particles, progressively neu-
+tralizing and ultimately inverting their charge, with a characteristic UFBs/AL ratio for the
+charge neutralizing point that is robust against changes in ionic strength. Furthermore, we
+demonstrate that the resulting flocculation is not fastest at the lowest ionic strength, but is
+maximized under a moderate ionic strength (10 mM NaCl) where double-layer compres-
+sion enables efficient UFB adsorption and bridging. This represents a significant extension
+of our group’s previous work, revealing a unique operational window for UFBs-mediated 433
+aggregation.
+
+430
+
+434
+
+426
+
+425
+
+424
+
+427
+
+431
+
+429
+
+432
+
+428
+
+Version November 19, 2025 submitted to Appl. Nano
+
+13 of 21
+
+435
+
+436
+
+Hydrodynamic analysis showed that the effective interfacial layer thickened at el-
+evated electrolyte concentration, consistent with enhanced UFBs adsorption, and direct
+microscopic imaging of particle dimers visually confirmed the presence of this layer. The
+flocculation kinetics underscored that reduced electrostatic barriers at 10 mM NaCl facil-
+itate adsorption and patch-mediated bridging, while extended double layers at 0.1 mM 439
+limited the process. The influence of pH was secondary but systematic, with enhanced 440
+aggregation at pH 6 relative to pH 9 likely due to pH-dependent variations in UFBs prop-
+erties that increase the effective collision cross section. Collectively, our findings provide
+a cohesive framework illustrating how UFBs adsorb onto positively charged AL particles,
+progressively neutralizing and ultimately inverting the surface charge while generating a
+soft interfacial layer. This work not only advances the fundamental understanding of gas–
+colloid interactions but also highlights the potential of UFBs as low-chemical flocculation
+aids in water and environmental applications. The coherent picture established with this
+model system provides a necessary foundation for future research.
+
+447
+
+448
+
+442
+
+444
+
+437
+
+446
+
+441
+
+438
+
+445
+
+443
+
+A critical next step is to extend this framework to more complex and realistic scenar-
+ios, such as natural waters involving multivalent electrolytes and heterogeneous natural
+colloids, to rigorously evaluate the practical scope of UFBs-mediated flocculation. Com-
+plementing this with a detailed theoretical quantification of the interaction energies will
+provide deeper mechanistic insight.
+
+Appendix A. Charging behavior of ultrafine bubbles (UFBs)
+
+Appendix A.1. Salt-induced rapid coagulation
+
+449
+
+450
+
+451
+
+452
+
+453
+
+454
+
+455
+
+Fig. A1 shows the results of the 1 M NaCl rapid coagulation tests under standardized 456
+
+end over end mixing. The particle number decayed, yielding a linear relation of ln N(t)
+N(0)
+with mixing time t. This linearity confirms the reliability of the method and the expected 458
+first order behavior in the rapid coagulation limit, consistent with prior reports from the
+Adachi group [35,36]. For subsequent analyses, the absolute slope of the ln N(t)
+N(0) vs t plot is
+
+459
+
+457
+
+Figure A1. Variation in the total number of clusters per unit volume, N(t) with the number of mixing
+time (t) for salt-induced coagulation. The number of AL particle concentration is 5 × 107 cm−3
+
+taken as the apparent coagulation rate constant under the 1M reference condition, and we
+use this to evaluate the enhancement factor for UFB induced flocculation of AL relative to
+the salt induced rapid coagulation reference.
+
+460
+
+461
+
+462
+
+463
+
+Version November 19, 2025 submitted to Appl. Nano
+
+14 of 21
+
+Appendix A.2. Ionic strength dependency
+
+Ultrafine bubbles (UFBs) in deionized water typically exhibit a net negative charge
+arising from the preferential adsorption of hydroxide ions (OH−) at the gas–liquid inter-
+face [50,57]. This behavior was reproduced in our measurements, as shown in Fig. A2,
+where the electrophoretic mobility (EPM) of UFBs is plotted as a function of NaCl concentra-
+tion at a fixed pH of 6.0 ± 0.3. At very low ionic strength, the UFBs exhibited a pronounced
+negative mobility, reflecting the dominance of hydroxyl adsorption. With increasing NaCl
+
+Figure A2. Electrophoretic mobility of UFBs as a function of NaCl concentration. Error bars represent
+the standard deviation of three measurements. The pH was maintained at 6.0 ± 0.3.
+
+concentration, the magnitude of the negative mobility progressively decreased due to
+compression of the electrical double layer and screening of interfacial charges. This trend is
+consistent with classical electric double layer theory: a shorter Debye length reduces the
+effective range of electrostatic interactions, thereby lowering the apparent zeta potential
+and electrophoretic response. Such ionic strength–dependent charging has been widely
+reported for gas–liquid interfaces [22].
+
+Appendix A.3. pH dependency
+
+464
+
+465
+
+466
+
+467
+
+468
+
+469
+
+470
+
+471
+
+472
+
+473
+
+474
+
+475
+
+476
+
+477
+
+Fig. A3 presents the electrophoretic mobility of UFBs, amidine latex (AL) particles,
+and UFBs–AL mixtures across the pH range 2–12 at a background NaCl concentration of
+0.1 mM. Compared to AL suspensions alone, the addition of UFBs consistently reduced 480
+the measured mobility, shifting values toward less positive or even negative levels. This
+reduction is attributed to the partial adsorption of anionic UFBs onto the cationic amidine
+surface, leading to charge masking and, in some cases, compensation. The effect was
+strongest below the isoelectric point (pH ∼10), where AL particles are most strongly
+cationic. Because the bulk pH of the suspensions remained stable, these reductions cannot
+be explained by protonation equilibria, but instead indicate direct electrostatic UFBs–AL 486
+interactions.
+
+478
+
+481
+
+479
+
+484
+
+483
+
+485
+
+482
+
+487
+
+The surface charge of UFBs is known to be highly pH-sensitive [31]. In our measure-
+ments, UFBs remained negatively charged over most of the range, becoming increasingly
+negative at alkaline pH, but reversed to slightly positive mobility at pH 2. This crossover
+reflects the competition between H+ and OH− ions at the interface: under acidic condi-
+tions protons dominate, while at higher pH hydroxide adsorption imparts strong negative
+charge. Such behavior has been confirmed in prior studies of air–water interfaces [43,44,61].
+Mechanistically, this pH response has been linked to hydration energy differences between
+protons and hydroxide ions, and to the preferred orientation of interfacial water dipoles,
+
+488
+
+489
+
+490
+
+491
+
+492
+
+493
+
+494
+
+495
+
+Version November 19, 2025 submitted to Appl. Nano
+
+15 of 21
+
+Figure A3. Electrophoretic mobility of UFBs (solid green triangle), AL particles (solid green circle),
+and UFBs–AL mixtures (solid red square) as a function of pH at a background NaCl concentration of
+0.1 mM. Error bars represent the standard deviation of three measurements.
+
+with oxygen atoms facing the gas phase and hydrogen atoms oriented toward bulk wa-
+ter [3,20]. The pH dependence of AL charge is governed by protonation of amidine groups.
+At acidic to neutral conditions, protonated AL yield positive mobility, which decreases with
+increasing pH and vanishes at the isoelectric point near pH 10. Beyond this point, negative
+mobilities arise from hydroxide adsorption onto the particle surface [60]. The overlap of
+these trends explains why UFBs addition leads to the most pronounced modulation of AL 501
+mobility below the IEP.
+
+499
+
+497
+
+502
+
+500
+
+498
+
+496
+
+Appendix A.4. Comparison with Previous Studies
+
+A comparison of the key mechanisms and findings from the present study with
+other relevant literature on bubble-particle interactions is provided in Table A1. This
+comparison highlights the consistency of our core observations (e.g., charge neutralization)
+with prior work and, more importantly, underscores the novel contributions of this study
+in providing a quantitative, multi-faceted analysis of the initial-stage flocculation process
+under controlled turbulent mixing.
+
+503
+
+504
+
+505
+
+506
+
+507
+
+508
+
+509
+
+Version November 19, 2025 submitted to Appl. Nano
+
+16 of 21
+
+Table A1. Comparison of key findings on nanobubble and ultrafine bubble-mediated interactions
+with colloidal particles.
+
+System Studied
+
+Mechanism / Key Findings
+
+Gold Nanoparticles
+& Bulk Nanobub-
+bles [30]
+
+Amidine
+Latex
+Nanoparticles &
+Nanobub-
+Bulk
+bles [32]
+
+with
+Kaolin
+Cationic
+Poly-
+acrylamide (CPAM)
+& Bulk Nanobub-
+bles (NBs) [65]
+
+Amidine Latex &
+Ultrafine Bubbles
+(UFBs)
+
+• NBs nucleate on nanoparti-
+cles, forming stable bubble-
+particle agglomerates.
+DLS confirms increased ag-
+gregate size.
+
+•
+
+•
+
+•
+
+charge
+nanoparticle-to-
+
+Controls
+via
+nanobubble ratio.
+Induces charge neutraliza-
+tion and reversal (isoelectric
+point).
+
+• NBs enhance settling rate
+
+and floc size.
+
+• NBs decrease the absolute
+
+zeta potential of particles.
+
+• Quantifies
+
+adsorption-
+driven charge regulation
+layer
+& hydrodynamic
+thickness.
+Elucidates flocculation ki-
+netics under controlled tur-
+bulence.
+Identifies optimal
+ionic
+strength (10 mM NaCl) for
+UFB-mediated bridging.
+
+•
+
+•
+
+Relation to the Present
+Study
+Consistent with our observa-
+tion that UFBs adsorb to parti-
+cles, forming complexes that
+alter colloidal stability and
+size.
+
+Directly consistent with our
+electrokinetic results,
+con-
+firming UFB adsorption leads
+to charge compensation and
+inversion.
+
+Supports the role of NBs
+in enhancing aggregation
+and modifying
+electroki-
+netic properties, similar to
+our observed UFB-assisted
+mechanisms.
+This study provides a cohe-
+sive, quantitative framework
+of the initial-stage floccula-
+tion process, linking electroki-
+netics, interfacial layer prop-
+erties, and aggregation kinet-
+ics.
+
+Version November 19, 2025 submitted to Appl. Nano
+
+17 of 21
+
+Author Contributions: Conceptualization, M.W.,S.S.; methodology, M.W., Y.A., S.S; validation, M.W.,
+S.S.; formal analysis, M.W., S.S.; investigation, M.W., S.S.; data curation, M.W.; writing—original draft
+preparation, M.W, S.S.; writing—review and editing, S.S., Y.A.; supervision, Y.A.; funding acquisition,
+Y.A. All authors have read and agreed to the published version of the manuscript.
+
+Funding: This research was financially supported by the Japan Society for the Promotion of Science
+(JSPS) KAKENHI (Grant number: 22H00387, 24H00767, 24K17982).
+
+Data Availability Statement: The raw data supporting the conclusions of this article will be made
+available by the authors on request.
+
+Acknowledgments: The authors gratefully acknowledge the kind support of Prof. Zhongfang Lei and
+Asst. Prof. Tian Yuan, whose guidance and provision of laboratory facilities enabled the successful
+generation of ultrafine bubbles. Dr. M.W. acknowledges financial support from the MEXT Scholarship
+for study at the University of Tsukuba, Japan.
+
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Abbreviations
+
+The following abbreviations are used in this manuscript:
+
+Amidine latex
+Charge neutralization point
+Dynamic Light Scattering
+
+AL
+CNP
+DLS
+DLVO Derjaguin–Landau–Verwey–Overbeek theory
+EPM
+EDL
+IEP
+NaCl
+NBs
+NTA
+UFBs
+
+Electrophoretic mobility
+Eelctric double layer
+Isoelectric point
+Sodium chloride
+Nanobubbles
+Nanoparticle tracking analysis
+Ultrafine bubbles
+
+References
+
+1.
+
+ISO 20480-1:2017(en), Fine bubble technology — General principles for usage and measurement
+of fine bubbles — Part 1: Terminology. https://www.iso.org/obp/ui/#iso:std:iso:20480:-1:ed-1:
+v1:en, 2017. Accessed: 2025-08-19.
+Tan, B.H.; An, H.; Ohl, C.D. Stability of surface and bulk nanobubbles. Current Opinion in
+Colloid & Interface Science 2021, 53, 101428. https://doi.org/10.1016/j.cocis.2021.101428.
+3. Meegoda, J.N.; Aluthgun Hewage, S.; Batagoda, J.H. Stability of Nanobubbles. Environmental
+
+2.
+
+Engineering Science 2018, 35, 1216–1227. https://doi.org/10.1089/ees.2018.0203.
+
+4. Manning, G.S. On the Thermodynamic Stability of Bubbles, Immiscible Droplets, and Cavities.
+Physical Chemistry Chemical Physics 2020, 22, 17523–17531. https://doi.org/10.1039/d0cp02517h.
+5. Miyamoto, S.; et al. Physical Properties of Ultrafine Bubbles Generated Using a Generator
+
+6.
+
+7.
+
+8.
+
+System. In Vivo 2023, 37, 2555–2563. https://doi.org/10.21873/invivo.13363.
+Ebina, K.; Shi, K.; Hirao, M.; Hashimoto, J.; Kawato, Y.; Kaneshiro, S.; Morimoto, T.; Koizumi,
+K.; Yoshikawa, H. Oxygen and air nanobubble water solution promote the growth of plants,
+fishes, and mice. PLoS One 2013, 8, e65339. https://doi.org/10.1371/journal.pone.0065339.
+Liu, Y.; Wang, S.; Shi, L.; Lu, W.; Li, P. Enhanced degradation of atrazine by microbubble
+ozonation. Environmental Science: Water Research & Technology 2020, 6, 1681–1687. https:
+//doi.org/10.1039/D0EW00252A.
+Tang, Y.; Zhang, M.; Zhang, J.; Lyu, T.; Cooper, M.; Pan, G. Reducing arsenic toxicity using
+the interfacial oxygen nanobubble technology for sediment remediation. Water Research 2021,
+205, 117657. https://doi.org/10.1016/j.watres.2021.117657.
+
+9. Wang, S.; Zhou, L.; Gao, Y. Can bulk nanobubbles be stabilized by electrostatic interaction?
+Phys. Chem. Chem. Phys. 2021, 23, 16501–16505. https://doi.org/10.1039/D1CP01279G.
+
+510
+
+511
+
+512
+
+513
+
+514
+
+515
+
+516
+
+517
+
+518
+
+519
+
+520
+
+521
+
+522
+
+523
+
+524
+
+525
+
+526
+
+527
+
+528
+
+529
+
+530
+
+531
+
+532
+
+533
+
+534
+
+535
+
+536
+
+537
+
+538
+
+539
+
+540
+
+541
+
+542
+
+543
+
+544
+
+545
+
+546
+
+547
+
+548
+
+549
+
+Version November 19, 2025 submitted to Appl. Nano
+
+18 of 21
+
+10. Agarwal, A.; Ng, W.J.; Liu, Y. Principle and Applications of Microbubble and Nanobubble
+Technology for Water Treatment. Chemosphere 2011, 84, 1175–1180. https://doi.org/10.1016/j.
+chemosphere.2011.05.054.
+
+11. Li, H.; Hu, L.; Song, D.; Lin, F. Characteristics of Micro-Nano Bubbles and Potential Application
+in Groundwater Bioremediation. Water Environment Research 2015, 86, 844–851. https://doi.
+org/10.2175/106143014X14062131177953.
+
+12. Lindner, J.R. Microbubbles in Medical Imaging: Current Applications and Future Directions.
+
+Nature Reviews Drug Discovery 2004, 3, 527–532. https://doi.org/10.1038/nrd1417.
+
+13. Matsuki, N.; Ichiba, S.; Ishikawa, T.; Nagano, O.; Takeda, M.; Ujike, Y.; Yamaguchi, T. Blood
+Oxygenation Using Microbubble Suspensions. European Biophysics Journal 2012, 41, 571–578.
+https://doi.org/10.1007/s00249-012-0811-y.
+Sun, Y.; Xie, G.; Peng, Y.; Xia, W.; Sha, J. Stability Theories of Nanobubbles at Solid-Liquid
+Interface: A Review. Colloids and Surfaces A: Physicochemical and Engineering Aspects 2016,
+495, 176–186. https://doi.org/10.1016/j.colsurfa.2016.01.050.
+
+14.
+
+15. Zhou, S.; et al. A novel flotation technique combining carrier flotation and cavitation bubbles to
+enhance separation efficiency of ultra-fine particles. Ultrasonics Sonochemistry 2020, 64, 105005.
+https://doi.org/10.1016/j.ultsonch.2020.105005.
+
+16. Li, Y.; Ma, G.; Bilal, M.; Sha, J.; Bu, X. Effect of Bulk Nanobubbles on the Flocculation and
+Filtration Characteristics of Kaolin Using Cationic Polyacrylamide. Minerals 2024, 14. https:
+//doi.org/10.3390/min14040405.
+
+17. Xu, R.; Wang, Y.; Li, Z. Exploration of Particle Technology in Fine Bubble Characterization.
+
+Particuology 2019, 46, 109–115. https://doi.org/10.1016/j.partic.2019.04.009.
+
+18. Temesgen, T.; Bui, T.T.; Han, M.; Kim, T.I.; Park, H. Micro and Nanobubble Technologies as
+a New Horizon for Water-Treatment Techniques: A Review. Advances in Colloid and Interface
+Science 2017, pp. –. https://doi.org/10.1016/j.cis.2017.06.011.
+
+19. Takahashi, M.
+
+zeta Potential of Microbubbles in Aqueous Solutions: Electrical Properties of the Gas–Water
+Interface. J. Phys. Chem. B 2005, 109, 21858–21864. https://doi.org/10.1021/jp0445270.
+
+550
+
+551
+
+552
+
+553
+
+554
+
+555
+
+556
+
+557
+
+558
+
+559
+
+560
+
+561
+
+562
+
+563
+
+564
+
+565
+
+566
+
+567
+
+568
+
+569
+
+570
+
+571
+
+572
+
+573
+
+574
+
+575
+
+576
+
+577
+
+20. Li, C.; Somasundaran, P. Reversal of bubble charge in multivalent inorganic salt solutions— 578
+Effect of magnesium. Journal of Colloid and Interface Science 1991, 146, 215–218. https://doi.org/ 579
+10.1016/0021-9797(91)90018-4.
+
+580
+
+21. Prakash, R.; et al. An Experimental Investigation of Cavitation Bulk Nanobubbles Charac-
+teristics: Effects of pH and Surface-active Agents, 2023, [arXiv:physics.flu-dyn/2301.08971].
+https://doi.org/10.48550/arXiv.2301.08971.
+
+22. Kelsall, G.H.; Tang, S.; Yurdakul, S.; Smith, A.L. Electrophoretic behaviour of bubbles in aqueous
+electrolytes. J. Chem. Soc., Faraday Trans. 1996, 92, 3887–3893. https://doi.org/10.1039/FT99692
+03887.
+
+23. Ma, X.; Li, M.; Pfeiffer, P.; Eisener, J.; Ohl, C.D.; Sun, C. Ion adsorption stabilizes bulk nanobub-
+bles. Journal of Colloid and Interface Science 2022, 606, 1380–1394. https://doi.org/10.1016/j.jcis.
+2021.08.101.
+
+24. Quintero-González, C.A.; Martínez, J.; Calva-Yáñez, J.C.; Oropeza-Guzmán, M.T. Physicochem-
+ical wastewater treatment improvement by hydrodynamic cavitation nanobubbles. Journal of
+Water Process Engineering 2025, 69, 106581. https://doi.org/https://doi.org/10.1016/j.jwpe.20
+24.106581.
+Schubert, H. Nanobubbles, hydrophobic effect, heterocoagulation and hydrodynamics in
+flotation. International Journal of Mineral Processing 2005, 78, 11–21. https://doi.org/10.1016/j.
+minpro.2005.07.002.
+
+25.
+
+26. Liu, L.; Hu, S.; Wu, C.; Liu, K.; Weng, L.; Zhou, W. Aggregates characterizations of the ultra-fine
+coal particles induced by nanobubbles. Fuel 2021, 297, 120765. https://doi.org/10.1016/j.fuel.
+2021.120765.
+
+27. Hampton, M.A.; Nguyen, A.V. Nanobubbles and the nanobubble bridging capillary force.
+Advances in Colloid and Interface Science 2010, 154, 30–55. https://doi.org/10.1016/j.cis.2010.01.
+006.
+
+581
+
+582
+
+583
+
+584
+
+585
+
+586
+
+587
+
+588
+
+589
+
+590
+
+591
+
+592
+
+593
+
+594
+
+595
+
+596
+
+597
+
+598
+
+599
+
+600
+
+601
+
+602
+
+Version November 19, 2025 submitted to Appl. Nano
+
+19 of 21
+
+28. Hampton, M.A.; Nguyen, A.V. Systematically altering the hydrophobic nanobubble bridging
+capillary force from attractive to repulsive. Journal of Colloid and Interface Science 2009, 333, 800–
+806. https://doi.org/10.1016/j.jcis.2009.01.035.
+Sha, J.; Yuan, S.; Chen, X.; Chen, W.; Wang, J.; Alheshibri, M.; Bu, X. Effect of bulk nanobubbles
+on flocculation of kaolin in the presence of cationic polyacrylamide. Physicochemical Problems of
+Mineral Processing 2024, 60, 186729. https://doi.org/10.37190/ppmp/186729.
+
+29.
+
+30. Zhang, M.; Seddon, J.R.T. Nanobubble–Nanoparticle Interactions in Bulk Solutions. Langmuir
+
+2016, 32, 11280–11286. https://doi.org/10.1021/acs.langmuir.6b02419.
+
+31. Parmar, R.; Majumder, S.K. Microbubble generation and microbubble-aided transport pro-
+cess intensification—A state-of-the-art report. Chemical Engineering and Processing: Process
+Intensification 2013, 64, 79–97. https://doi.org/10.1016/j.cep.2012.12.002.
+
+603
+
+604
+
+605
+
+606
+
+607
+
+608
+
+609
+
+610
+
+611
+
+612
+
+613
+
+33.
+
+32. Zhang, M.; Seddon, J.R.T.; Lemay, S.G. Nanoparticle–nanobubble interactions: Charge inversion
+and re-entrant condensation of amidine latex nanoparticles driven by bulk nanobubbles. Journal
+of Colloid and Interface Science 2019, 538, 605–610. https://doi.org/10.1016/j.jcis.2018.11.110.
+Ishida, N.; Sakamoto, M.; Miyahara, M.; Higashitani, K. Attraction between Hydrophobic
+Surfaces with and without Gas Phase. Langmuir 2000, 16, 5681–5687. https://doi.org/10.1021/ 618
+la991146i.
+Ishida, N.; Inoue, T.; Miyahara, M.; Higashitani, K. Nano Bubbles on a Hydrophobic Surface in
+Water Observed by Tapping-Mode Atomic Force Microscopy. Langmuir 2000, 16, 6377–6380.
+https://doi.org/10.1021/la000219r.
+
+34.
+
+614
+
+617
+
+615
+
+620
+
+621
+
+619
+
+622
+
+616
+
+35. Adachi, Y.; Stuart, M.A.C.; Fokkink, R. Kinetics of Turbulent Coagulation Studied by Means
+Journal of Colloid and Interface Science 1994, 165, 310–317. https:
+
+of End-over-End Rotation.
+//doi.org/10.1006/jcis.1994.1234.
+
+36. Kobayashi, M.; Adachi, Y. Kinetics of coagulation of model colloidal particles in a turbulent
+flow. Transactions of the Japanese Society of Irrigation, Drainage and Reclamation Engineering 1997,
+1997, 691–695. https://doi.org/10.11408/jsidre1965.1997.691.
+
+37. Adachi, Y.; Wada, T.
+
+Initial stage dynamics of bridging flocculation of polystyrene latex
+Journal of Colloid and Interface Science 2000, 229, 148–154.
+
+spheres with polyethylene oxide.
+https://doi.org/10.1006/jcis.2000.6964.
+
+623
+
+624
+
+625
+
+626
+
+627
+
+628
+
+629
+
+630
+
+631
+
+633
+
+632
+
+39.
+
+38. Adachi, Y.; Kusaka, Y.; Kobayashi, A. Transient behavior of adsorbing/adsorbed polyelectrolytes
+on the surface of colloidal particles studied by means of trajectory analysis of Brownian motion.
+Colloids and Surfaces A: Physicochemical and Engineering Aspects 2011, 376, 9–13. https://doi.org/ 634
+10.1016/j.colsurfa.2010.11.004.
+Feng, L.; Stuart, M.C.; Adachi, Y. Dynamics of polyelectrolyte adsorption and colloidal floccula-
+tion upon mixing studied using mono-dispersed polystyrene latex particles. Advances in Colloid
+and Interface Science 2015, 226, 101–114. https://doi.org/10.1016/j.cis.2015.09.004.
+Sultana, M.; Wulandari, M.; Adachi, Y. Remarkable potential of Na-montmorillonite as a
+sustainable and eco-friendly material for flocculant studied in the standardized mixing flow.
+Bioresource Technology Reports 2023, 23, 101567. https://doi.org/10.1016/j.biteb.2023.101567.
+Ilyasov, L.O.; Ogawa, K.; Panova, I.G.; Yaroslavov, A.A.; Adachi, Y. Initial-stage dynamics
+of flocculation of cationic colloidal particles induced by negatively charged polyelectrolytes,
+polyelectrolyte complexes, and microgels studied using standardized colloid mixing. Langmuir
+2020, 36, 8375–8383. https://doi.org/10.1021/acs.langmuir.0c00619.
+
+40.
+
+41.
+
+636
+
+635
+
+637
+
+640
+
+639
+
+642
+
+643
+
+645
+
+644
+
+638
+
+641
+
+42. Wulandari, M.; Saha, S.; Sugimoto, T.; Yamashita, Y.; Adachi, Y. Initial stage aggregation of
+colloidal particles induced by the deposition of oppositely charged particles using standardized
+colloid mixing. Journal of Molecular Liquids 2025, 425, 127271. https://doi.org/https://doi.org/ 648
+10.1016/j.molliq.2025.127271.
+
+646
+
+649
+
+647
+
+43. Takahashi, M. Zeta Potential of Microbubbles in Aqueous Solutions: Electrical Properties of
+the Gas–Water Interface. The Journal of Physical Chemistry B 2005, 109, 21858–21864. https:
+//doi.org/10.1021/jp0445270.
+
+44. Creux, P.; Lachaise, J.; Graciaa, A.; Beattie, J.K.; Djerdjev, A.M. Strong Specific Hydroxide Ion
+Binding at the Pristine Oil/Water and Air/Water Interfaces. The Journal of Physical Chemistry B
+2009, 113, 14146–14150. https://doi.org/10.1021/jp906978v.
+
+650
+
+651
+
+652
+
+653
+
+654
+
+655
+
+Version November 19, 2025 submitted to Appl. Nano
+
+20 of 21
+
+45. Leroy, P.; Jougnot, D.; Revil, A.; Lassin, A.; Azaroual, M. A double layer model of the gas
+Journal of Colloid and Interface Science 2012, 388, 243–256. https:
+
+bubble/water interface.
+//doi.org/10.1016/j.jcis.2012.07.029.
+
+46. Zaucha, M.; Adamczyk, Z.; Barbasz, J. Zeta potential of particle bilayers on mica: A streaming
+potential study. Journal of Colloid and Interface Science 2011, 360, 195–203. https://doi.org/https:
+//doi.org/10.1016/j.jcis.2011.02.025.
+
+656
+
+657
+
+658
+
+659
+
+660
+
+661
+
+47. Montes Ruiz-Cabello, F.J.; Trefalt, G.; Oncsik, T.; Szilagyi, I.; Maroni, P.; Borkovec, M. Interaction
+Forces and Aggregation Rates of Colloidal Latex Particles in the Presence of Monovalent
+Counterions. The Journal of Physical Chemistry B 2015, 119, 8184–8193. https://doi.org/10.1021/ 664
+acs.jpcb.5b02556.
+
+665
+
+662
+
+663
+
+48. Wang, D.; Yang, X.; Tian, C.; Lei, Z.; Kobayashi, N.; Kobayashi, M.; Adachi, Y.; Shimizu,
+K.; Zhang, Z. Characteristics of ultra-fine bubble water and its trials on enhanced methane
+production from waste activated sludge. Bioresource Technology 2019, 273, 63–69. https:
+//doi.org/https://doi.org/10.1016/j.biortech.2018.10.077.
+Filipe, V.; Hawe, A.; Jiskoot, W. Critical Evaluation of Nanoparticle Tracking Analysis (NTA) by
+NanoSight for the Measurement of Nanoparticles and Protein Aggregates. Pharm. Res. 2010,
+27, 796–810. https://doi.org/10.1007/s11095-010-0073-2.
+
+49.
+
+50. Nirmalkar, N.; Pacek, A.W.; Barigou, M. On the Existence and Stability of Bulk Nanobubbles.
+
+Langmuir 2018, 34, 10964–10973. https://doi.org/10.1021/acs.langmuir.8b01163.
+
+666
+
+667
+
+668
+
+669
+
+670
+
+671
+
+672
+
+673
+
+674
+
+51. Millare, J.C.; Basilia, B.A. Nanobubbles from Ethanol-Water Mixtures: Generation and Solute
+Effects via Solvent Replacement Method. ChemistrySelect 2018, 3, 9268–9275, [https://chemistry-
+europe.onlinelibrary.wiley.com/doi/pdf/10.1002/slct.201801504]. https://doi.org/https:// 677
+doi.org/10.1002/slct.201801504.
+
+675
+
+676
+
+678
+
+52. Ushikubo, F.Y.; et al. Evidence of the existence and the stability of nano-bubbles in water.
+Colloids and Surfaces A: Physicochemical and Engineering Aspects 2010, 361, 31–37. https://doi.
+org/10.1016/j.colsurfa.2010.03.005.
+
+53. Kusaka, Y.; Adachi, Y. Determination of hydrodynamic diameter of small flocs by means
+of direct movie analysis of Brownian motion. Colloids and Surfaces A: Physicochemical and
+Engineering Aspects 2007, 306, 166–170.
+INTERFACES AGAINST POLLUTION 2006, https:
+//doi.org/https://doi.org/10.1016/j.colsurfa.2007.03.030.
+
+54. Montazeri, S.M.; Kalogerakis, N.; Kolliopoulos, G. Effect of chemical species and temperature
+
+679
+
+680
+
+681
+
+682
+
+683
+
+684
+
+685
+
+686
+
+on the stability of air nanobubbles. Scientific Reports 2023, 13, 16716. https://doi.org/10.1038/ 687
+s41598-023-43803-6.
+
+688
+
+55. Zhang, X.; Wang, Q.; Wu, Z.; Tao, D. An experimental study on size distribution and zeta
+International Journal of Minerals, Metallurgy and
+
+potential of bulk cavitation nanobubbles.
+Materials 2020, 27, 152–161. https://doi.org/10.1007/s12613-019-1936-0.
+
+56. Ma, X.; Li, M.; Pfeiffer, P.; Eisener, J.; Ohl, C.D.; Sun, C. Ion adsorption stabilizes bulk nanobub-
+bles. Journal of Colloid and Interface Science 2022, 606, 1380–1394. https://doi.org/10.1016/j.jcis.
+2021.08.101.
+
+57. Yasui, K.; Tuziuti, T.; Kanematsu, W. Mysteries of bulk nanobubbles (ultrafine bubbles); stability
+and radical formation. Ultrasonics Sonochemistry 2018, 48, 259–266. https://doi.org/10.1016/j.
+ultsonch.2018.05.038.
+
+58. Brenner, M.P.; Lohse, D. Dynamic Equilibrium Mechanism for Surface Nanobubble Stabilization.
+
+Phys. Rev. Lett. 2008, 101, 214505. https://doi.org/10.1103/PhysRevLett.101.214505.
+
+59. Nazari, S.; Hassanzadeh, A.; He, Y.; Khoshdast, H.; Kowalczuk, P.B. Recent Developments in
+Generation, Detection and Application of Nanobubbles in Flotation. Minerals 2022, 12, 462.
+https://doi.org/10.3390/min12040462.
+
+60. Montes Ruiz-Cabello, F.J.; Trefalt, G.; Oncsik, T.; Szilagyi, I.; Maroni, P.; Borkovec, M. Interaction
+Forces and Aggregation Rates of Colloidal Latex Particles in the Presence of Monovalent
+Counterions. J. Phys. Chem. B 2015, 119, 8184–8193. https://doi.org/10.1021/acs.jpcb.5b02556.
+61. Hampton, M.A.; Nguyen, A.V. Nanobubbles and the nanobubble bridging capillary force.
+Advances in Colloid and Interface Science 2010, 154, 30–55. https://doi.org/10.1016/j.cis.2010.01.
+006.
+
+62. Gregory, J. Rates of flocculation of latex particles by cationic polymers. Journal of Colloid and
+
+Interface Science 1973, 42, 448–456. https://doi.org/10.1016/0021-9797(73)90311-1.
+
+689
+
+690
+
+691
+
+692
+
+693
+
+694
+
+695
+
+696
+
+697
+
+698
+
+699
+
+700
+
+701
+
+702
+
+703
+
+704
+
+705
+
+706
+
+707
+
+708
+
+709
+
+710
+
+Version November 19, 2025 submitted to Appl. Nano
+
+21 of 21
+
+63. Alsharif, N.B.; Murath, S.; Katana, B.; Szilagyi, I. Composite materials based on heteroaggre-
+gated particles: Fundamentals and applications. Advances in Colloid and Interface Science 2021,
+294, 102456. https://doi.org/10.1016/j.cis.2021.102456.
+
+64. Lim, V.H.; Brata, M.V.; Adachi, Y. Effects of Polymer Branching Structure on the Hydrodynamic
+Adsorbed Layer Thickness Formed on Colloidal Particles. Journal of Chemical Engineering of
+Japan 2022, 55, 148–153. https://doi.org/10.1252/jcej.21we095.
+
+65. Li, Y.; Ma, G.; Bilal, M.; Sha, J.; Bu, X. Effect of Bulk Nanobubbles on the Flocculation and
+Filtration Characteristics of Kaolin Using Cationic Polyacrylamide. Minerals 2024, 14, 405.
+https://doi.org/10.3390/min14040405.
+
+711
+
+712
+
+713
+
+714
+
+715
+
+716
+
+717
+
+718
+
+719
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are
+solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s).
+MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from 722
+any ideas, methods, instructions or products referred to in the content.
+
+720
+
+721
+
+723
+
+
