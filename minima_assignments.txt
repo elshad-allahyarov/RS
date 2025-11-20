@@ -1,0 +1,33 @@
+====================================================================================================
+DETAILED MINIMA ANALYSIS: 400-1000 cm⁻¹ REGION
+====================================================================================================
+
+EXPERIMENTAL MINIMA (RED LINE) WITH VIBRATIONAL ASSIGNMENTS
+----------------------------------------------------------------------------------------------------
+Position     Trans %    Enhanced        Ultra-Enh       Assignment                     Description                             
+----------------------------------------------------------------------------------------------------
+   420.4 cm⁻¹    37.5%    449.0           442.0           C-C-C bend                     C-C-C bending (skeletal)
+   434.4 cm⁻¹    37.5%    449.0           442.0           C-C-C bend                     C-C-C bending (skeletal)
+   453.2 cm⁻¹    37.0%    449.0           442.0           SO₂ rock/Ring                  SO₂ rocking + Ring puckering
+   514.4 cm⁻¹     4.8%    540.0           ---             Ring def                       Ring deformation
+   555.4 cm⁻¹    35.0%    540.0           545.0           SO₂ bend                       SO₂ scissoring/deformation
+   591.1 cm⁻¹     6.0%    600.0           ---             SO₂ bend                       SO₂ scissoring/deformation
+   741.5 cm⁻¹     3.6%    718.0           749.5           C-S stretch                    C-S stretching (strong)
+   834.6 cm⁻¹    29.5%    ---             ---             CH₂ rock                       CH₂ rocking (chain)
+   889.5 cm⁻¹    36.9%    893.0           889.5           Ring breathing                 Ring breathing mode (weak)
+   947.9 cm⁻¹    50.4%    ---             ---             CH₂ rock                       CH₂ rocking vibration
+
+====================================================================================================
+SUMMARY STATISTICS
+====================================================================================================
+Total experimental minima: 10
+Enhanced matched: 8 (80.0%)
+Ultra-Enhanced matched: 6 (60.0%)
+
+Vibrational mode distribution:
+  C-C            :  2 peaks
+  Ring           :  2 peaks
+  S=O            :  2 peaks
+  C-H            :  2 peaks
+  S=O+Ring       :  1 peaks
+  C-S            :  1 peaks
