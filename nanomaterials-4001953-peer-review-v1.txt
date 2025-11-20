@@ -1,0 +1,1556 @@
+Formation AgI and ZnI2 nanocrystals in AgI-ZnI2-SiO2 hybrid 
+powders   
+
+Anastasiia Averkina 1*, Igor Valtsifer 1, Vladimir Strelnikov1, Natalia Kondrashova1, Viktor Valtsifer 1   
+
+1 Institute of Technical Chemistry of Ural Branch of RAS – Branch of Perm Federal Research Centre of Ural 
+Branch of RAS, 3 Academika Koroleva Str., Perm, 614068, Russian Federation 
+*  Correspondence: anastasiya.av11@yandex.ru 
+
+Abstract.   
+
+AgI and ZnI2 nanocrystals were key components for AgI-ZnI2-SiO2 hybrid powders 
+(HPs), which could be potentially important for atmospheric artificial precipitation tech-
+nology.  HPs  were  created  by  the  "Hydrothermal  template  cocondensation"  method 
+(“HTC” method). Mesoporous silica dioxide (MCM48, MCM41, SBA15, SBA16), silver io-
+dides and zinc iodides were simultaneously grown under specific conditions. Influence of 
+silica dioxide on AgI and ZnI2 nanocrystals characteristics (phase, size and thermal stabil-
+ity) were studied by various physicochemical analysis methods. In addition to crystal fea-
+tures, some structural, textural properties AgI-ZnI2-SiO2 hybrid as individual agglomerate 
+and its morphology were determined. It was showed that nanocrystal features were de-
+pended on synthesis condition. The "chemical pressure" exerted by the pH-former agent 
+had an impact on the initial stages of the process, while the morphology of the silica diox-
+ide matrix controlled the crystal properties during the post-synthesis phase. The silica di-
+oxide morphology controlled of crystal properties on the post-synthesis stage. It was es-
+tablished that thermal stability of AgI and ZnI2 nanocrystals increased due to protective 
+shielding function of that SiO2 matrix.   
+
+Keywords: hybrids; silver iodide; artificial technology; silica dioxide 
+
+Academic Editor(s): Name 
+
+Received: date 
+
+Revised: date 
+
+Accepted: date 
+
+Published: date 
+
+Citation: RAS, I.O.T.C.O.U.B.O.; Str, 
+
+A.K.; Perm; Federation, R. Anasta-
+siia Averkina 1*, Igor Valtsifer 1, 
+Vladimir Strelnikov1, 
+Natalia Kondrashova1, 
+Viktor Valtsifer 1. Nanomaterials 2025, 
+
+15, x. https://doi.org/10.3390/xxxxx 
+
+Copyright: © 2025 by the authors. 
+
+Submitted for possible open access 
+
+publication under the terms and 
+
+conditions of the Creative Commons 
+
+Attribution (CC BY) license 
+
+(https://creativecommons.org/license
+
+s/by/4.0/). 
+
+1. Introduction 
+
+The technology of atmospheric artificial precipitation is strategic sphere to prevent 
+hail, drought and heavy rains. Silver iodide is the most well-known substance for “cloud 
+seeding”. But it has a number of disadvantages, namely high crystal size, polymorphism 
+of crystal lattice, low thermal stability. These parameters are crucial, because silver iodide 
+does not contact with ice crystal. Firstly, then silver iodide heated into delivery vehicles, 
+it  destroyed  to  metal  silver  and  silver  oxide.  Secondly,  large  native  AgI  crystal  cannot 
+interact with icicle. There are common approaches to correct these shortcomings.   
+
+The first approach is to reduce the silver iodide dispersion by changing the parame-
+ters of the chemical synthesis of its crystals. The second way is to prevent AgI destruction 
+by the addition of iodine donors, such as copper iodide, zinc iodide, magnesium iodide 
+or iodate of these metals [1-4]. 
+
+Previously, the authors created a AgI-SiO2 hybrid powder hybrid. The main idea of 
+their experimental works was to localize AgI crystals on SiO2 matrix. The authors took 
+chemical  reaction  between  silver  nitrate  and  potassium  iodide  as  the  basis  for  the  for-
+mation  of  silver  iodide  crystals.  The  synthesis  methods  proposed  by  the  authors  have 
+
+Nanomaterials 2025, 15, x 
+
+https://doi.org/10.3390/xxxxx 
+
+1 
+
+2 
+
+3 
+
+4 
+5 
+6 
+7 
+
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+
+24 
+25 
+
+26 
+
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+2  of  10 
+
+significantly increased the thermal stability of silver iodide and reduced the dispersion of 
+its crystals [5-8]. 
+
+Since the use of iodine donors also makes it possible to increase the thermal stability 
+of silver iodide, it is necessary to solve problems, which are related to determining the 
+methods of their introduction into the SiO2 matrix and to establish the influence of syn-
+thesis conditions on the characteristic features of AgI and ZnI2 crystals. 
+
+2. Methods or Materials 
+
+"Hydrothermal  template  cocondensation"  method  (“HTC”  method)  was  the  basic 
+way  for  AgI-ZnI2-SiO2  HPs  synthesis.  The  “HTC”  method  conditions  and  parameters 
+were established by the authors in previous studies [5-8]. This method allowed to simul-
+taneously  synthesize  silicon  dioxide,  silver  iodide  (from  silver  nitrate)  and  zinc  iodide 
+(from zinc nitrate) in the presence of excess potassium iodide. Different types of mesopo-
+rous silicon dioxide (such as MCM48, MCM41, SBA15 and SBA16) served as a base for the 
+silver iodide and copper iodide crystals. 
+
+Some substances were used for the synthesis: tetraethoxysilane (TEOS) (98%, Sigma 
+Aldrich), silver nitrate (99%, Sigma Aldrich), zinc nitrate (99%, Sigma Aldrich), potassium 
+iodide (97%, Sigma Aldrich), cetyltrimethylammonium bromide (CTAB) (98%, Sigma Al-
+drich), Pluronic P-123, (98%, Sigma-Aldrich),    Pluronic F-127, (98%, Sigma-Aldrich),so-
+dium hydroxide (98%, Sigma Aldrich), Ammonium hydroxide solution (28-30 %, Sigma 
+Aldrich), hydrochloric acid (36%, Sigma Aldrich). 
+
+AgI-ZnI2-MCM48  HPs  synthesis  conditions  were  parameters:  hydrothermal  aging 
+time was 48 hours, hydrothermal aging temperature was 120 °C, pH of the sol was 10 - 12. 
+Ratio [TEOS] / [CTAB] was 1 : 0.44, ratio [Ag] / [Si] was 0.08. 
+
+AgI-ZnI2-MCM41 HPs synthesis conditions hybrid were parameters: hydrothermal 
+aging time was 48 hours, hydrothermal aging temperature was 100 °C, pH of the sol was 
+10 - 12. Ratio [TEOS] / [CTAB] was 1 : 0.20, ratio [Ag] / [Si] was 0.08. 
+
+AgI-ZnI2-SBA15  HPs  synthesis  conditions  were  parameters:  hydrothermal  aging 
+time  was 24 hours, hydrothermal aging temperature  was 80 °C,  pH of the  sol  was 2-3. 
+Ratio [TEOS] / [Pluronic P-123] was 1 : 0.02, ratio [Ag] / [Si] was 0.08. 
+
+AgI-ZnI2-SBA16  HPs  synthesis  conditions  were  parameters:  hydrothermal  aging 
+time  was 24 hours, hydrothermal aging temperature  was 80 °C,  pH of the  sol  was 2-3. 
+Ratio [TEOS] / [Pluronic F-127] was 1 : 0.02, ratio [Ag] / [Si] was 0.08 [5-6]. 
+
+The ratio [Ag] / [Zn] was 1.00 for new  AgI-ZnI2-SiO2 HPs. Then HPs were washed 
+and dried in a drying oven at a temperature of 110 °C. The next step was the annealing 
+stage.    This was a post-synthetic treatment to remove the structure-forming agent (CTAB, 
+Pluronic P-123, Pluronic F-127). It took place in a muffle furnace in an air atmosphere at 
+550 °C temperature for 5 hours.   
+
+The synthesized samples were characterized by various physicochemical methods of 
+
+analysis. 
+
+The structure of the metal iodide crystals and powder materials in general was iden-
+tified  by  XRD.  Diffraction  patterns  were  recorded  by  an  XRD-7000  diffractometer  (Shi-
+madzu, Japan) using CuKα radiation (λav = 1.54 Å). The scan ranges were 1.4  -10.0 and 
+10.0 – 80.0 degrees with a step of 0.010- 0.005 degrees, accumulation time ranged from 1.5 
+to 2.0 s. The diffraction patterns were identified using the JSPDS powder diffraction file. 
+The  average  crystallite  size  was  calculated  by  the  Selyakov-Scherrer  formula:  D  =  K 
+λ/(βcosӨ), where K = 0.89; λ = 1.54056 Å; β - half-width of the reflection (100), rad;  Ө - 
+diffraction angle of the reflection, deg. 
+
+Morphological features of the inorganic hybrid samples were examined using a FEI 
+Quanta FEG650 scanning electron microscope (ThermoFisher Scientific, the Netherlands). 
+
+42 
+43 
+44 
+45 
+46 
+47 
+
+48 
+
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+66 
+67 
+68 
+69 
+70 
+71 
+72 
+73 
+74 
+75 
+76 
+77 
+78 
+79 
+80 
+81 
+82 
+83 
+84 
+85 
+86 
+87 
+88 
+89 
+90 
+
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+3  of  10 
+
+The  structural  and  textural  properties  of  HPs  were  evaluated  by  low-temperature 
+adsorption of nitrogen with an ASAP 2020 analyzer (Micromeritics, USA) after vacuum 
+degassing of the sample at 350°C for 3 h. The specific surface area of the samples (SBET) 
+and the total pore volume (Vtot) were determined by the BET method, pore size distribu-
+tion  was  identified  from  the  desorption  isotherms  by  the  BJH  method  in  the  pore  size 
+range of 1.7 – 300.0 nm. 
+
+The content of silver iodide and zinc iodide was determined using atomic absorption 
+spectroscopy (Thermo Fisher Scientific iCE 3500, USA) in combination with titration. This 
+approach allowed to clarify the amount of metal iodides in the HPs. Before the measure-
+ment, silver and zinc were converted from the HPs into a soluble form. The obtained re-
+sults were recalculated to values reflecting the direct content of metals in the HPs. 
+
+The thermal behavior  of HPs was  studied using a TGA/DSC 1 device  (METTLER-
+TOLEDO, Switzerland) in an air atmosphere at a heating rate of 10 °C/min in the temper-
+ature range of 25–1000 °C. 
+
+The study of moisture absorption under static conditions was carried out by saturat-
+ing the powder material with moisture in a desiccator, where the relative humidity of the 
+environment was maintained at about 90%. 
+
+The HPs' activity was investigated under dynamic conditions. The climatic chamber 
+specially was utilized to create an oversaturated wet area and facilitate its precipitation. 
+This climatic chamber was developed    by the Institute of Technical Chemistry of the Ural 
+Branch  of  Russian  Academy  of  Sciences.  The  chamber  was  a  hermetically  sealed,  ther-
+mally insulated cubic structure with a volume of 8 m³. It was equipped with an ultrasonic 
+humidification system capable  of producing 310 cm³/h, a device  for  spraying HPs, and 
+laser sensors (CDR-10X optical position sensors). The temperature and humidity condi-
+tions were regulated and maintained by an air conditioning system within the chamber. 
+The experiments were conducted at a temperature of -5 °C. The duration of the destruc-
+tion process was calculated by subtracting the time when the hybrid was introduced into 
+the oversaturated wet area from the time it became transparent. 
+
+3. Result and discussion 
+
+The authors developed some methods for hybrid synthesis and those methods were 
+used for  AgI-ZnI2-SiO2 powder  creation [5-8]. Those methods allowed to AgI-ZnI2-SiO2 
+formation from different silica dioxide matrix: MCM48, MCM41, SBA15, SBA16. The syn-
+thesized HPs showed different characteristic features (structural, textural and exploitation 
+properties and thermal stability of nanocrystals) due to different silica dioxide types.   
+
+It was established that a microagglomerate was structural unit of powders and sam-
+ples were polydisperse powder. It was shown that the morphology of the HPs’s agglom-
+erates was determined by the characteristics of the native silica dioxide matrix of the cor-
+responding family [9, 10]. SEM results showed that AgI-ZnI2-MCM48 HP was worm-like 
+agglomerates,  AgI-ZnI2-MCM41  was  grape-like  agglomerates,  AgI-ZnI2-SBA15,  AgI- 
+ZnI2-SBA16 were elongated spherical agglomerates (fig. 1). SiO2 type was confirmed by 
+Small-Angle X-ray Scattering. The microagglomerate was a result of stable accumulation 
+of single silica dioxide nanoparticles. It was assumed that electrostatic forces held together 
+silica dioxide nanoparticles. The silver iodide and zinc iodide nanocrystals did not pre-
+vent self-assembly of powder microagglomerates. 
+
+91 
+92 
+93 
+94 
+95 
+96 
+97 
+98 
+99 
+
+100
+
+101
+
+102
+
+103
+
+104
+
+105
+
+106
+
+107
+
+108
+
+109
+
+110
+
+111
+
+112
+
+113
+
+114
+
+115
+
+116
+
+117
+
+118
+
+119
+
+120
+
+121
+
+122
+
+123
+
+124
+
+125
+
+126
+
+127
+
+128
+
+129
+
+130
+
+131
+
+132
+
+133
+
+134
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+4  of  10 
+
+Figure 1. SEM-images of AgI-ZnI2-SiO2 HPs: A - AgI- ZnI2-MCM48, B - AgI- ZnI2-MCM41,.C - AgI- 
+
+ZnI2-SBA15, D - AgI- ZnI2-SBA16 
+
+The X-ray phase analysis at low diffraction angles 1-10 ° showed that silica dioxide 
+
+was mesoporous silica dioxide of MCM and SBA families (fig. 2) [9, 10]. 
+
+Figure 2. X-ray image of AgI-ZnI2-SiO2 HPs in small angles: A - AgI- ZnI2-MCM48,.B - AgI- ZnI2-
+
+MCM41, C - AgI- ZnI2-SBA15, D - AgI- ZnI2-SBA16 
+
+The SEM and X-Ray results confirmed that silver iodide and zinc iodide did not affect 
+
+the structure of the silica dioxide matrix.   
+
+The low-temperature nitrogen sorption was used for assessment of structural prop-
+erties of HPs. It was established that a significant decrease in the specific surface area for 
+the  synthesized samples compared to the  unmodified silica oxide matrix  was  occurred 
+(Table 1). The decrease was to 20-80 times for this parameter. This might be a consequence 
+of the crystals of silver iodide and zinc iodide were localized on the irregularities (natural 
+bends of the microagglomerate) of the relief, as well as in the pores and interporous space 
+of the silica dioxide matrix. The changes of structural properties occurred for all samples 
+of synthesized AgI- ZnI2-SiO2 HPs. It was found that the pore volume indicators and their 
+linear dimensions were significantly changed as well as the specific surface area. It could 
+be because silver iodide and zinc iodide nanocrystals were embedded into the surface and 
+they were the guests with respect to silica dioxide at the stage of the sol existence. 
+
+Table 1. The structural and textural properties of AgI-ZnI2-SiO2 HPs. 
+
+135
+
+136
+
+137
+
+138
+
+139
+
+140
+
+141
+
+142
+
+143
+
+144
+
+145
+
+146
+
+147
+
+148
+
+149
+
+150
+
+151
+
+152
+
+153
+
+154
+
+155
+
+156
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+5  of  10 
+
+HP sample 
+
+Surface area, SBET, m2/g 
+
+AgI- ZnI2-MCM48 
+AgI- ZnI2-MCM41 
+AgI- ZnI2-SBA15 
+AgI- ZnI2-SBA16 
+MCM48 
+MCM41 
+SBA15 
+SBA16 
+
+40 
+33 
+27 
+25 
+1635 
+1088 
+688 
+617 
+
+Total volume, 
+cm3/g 
+0,07 
+0,09 
+0,11 
+0,10 
+0,97 
+0,84 
+0,72 
+0,67 
+
+Pore diameter, nm 
+(desorption) 
+6,77 
+7,12 
+8,96 
+9,28 
+2,6 
+3,2 
+3,9 
+4,6 
+
+Figure 3. was the HPs sorption isotherms. Those isotherms were IV type isotherms 
+(according IUPAC classification).    Such types of isotherms described the micro- and mes-
+opores in the HPs samples (fig. 3). 
+
+157
+
+158
+
+159
+
+Figure 3. The AgI- ZnI2-SiO2 HPs sorption isotherms: A - AgI-ZnI2-MCM48, B - AgI-ZnI2-MCM41,.C 
+
+- AgI-ZnI2-SBA15, D - AgI-ZnI2-SBA16. 
+
+The characteristic features of AgI and ZnI2 nanocrystals were defined by X-Ray. The 
+Selyakov-Scherrer formula was used for the average crystallite size calculation (Table 2) 
+[11, 12]. It was found that silver iodide nanocrystals (in the crystalline phases of Miersite, 
+Iodargyrite) and zinc iodide nanocrystals were formed in all the synthesized HPs under 
+the selected synthesis conditions. Also all samples of the HPs did not contain zinc oxide. 
+This fact was established according to the X-Ray results. It was evidenced by the charac-
+teristic peaks in the X-ray diffraction patterns (fig. 4). The type of silica dioxide matrix had 
+no impact on the likelihood of silver iodide and zinc iodide nanocrystal formation. How-
+ever, a notable  difference was observed. The size  of the  crystallites increased in the  se-
+quence SBA16, SBA15, MCM41, and MCM48.   
+
+Table 2. The average crystallite size in the AgI-ZnI2-SiO2 HPs. 
+
+HP sample 
+AgI-ZnI2-MCM48 
+AgI-ZnI2-MCM41 
+AgI-ZnI2-SBA15 
+AgI-ZnI2-SBA16 
+The correlation between the linear dimensions and the type of mesoporous silica di-
+
+ZnI2-crystaline size, nm 
+18 
+16 
+14 
+13 
+
+AgI-crystaline size, nm 
+24 
+22 
+21 
+19 
+
+oxide could be explained by certain principles. 
+
+First and foremost, the influence of the pores' size within the silica matrix (and con-
+sequently the interpore space) became evident. It is well-known that the MCM family has 
+smaller pores than the SBA family. Secondly, a phenomenon referred to as "chemical pres-
+sure" manifested itself. This "chemical pressure" was essentially the influence of pH sub-
+stances. The pH value of the sol was set during its synthesis by these substances. Specifi-
+cally, NaOH was used in the synthesis of MCM48 particles, while NH4OH was employed 
+for MCM41. On the other hand, HCl was utilized for SBA16 and SBA15 particles. 
+
+160
+
+161
+
+162
+
+163
+
+164
+
+165
+
+166
+
+167
+
+168
+
+169
+
+170
+
+171
+
+172
+
+173
+
+174
+
+175
+
+176
+
+177
+
+178
+
+179
+
+180
+
+181
+
+182
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+6  of  10 
+
+The influence of the listed substances on the reaction pathway and intensity between 
+silver nitrate, zinc nitrate, and potassium iodide varied significantly. These substances al-
+tered the pH of the solution and affected the kinetic parameters of the formation of silver 
+iodide and zinc iodide. This effect was due to the ability of silver and zinc cations (zinc 
+compounds are ampholytic substances in addition)to form either sparingly soluble com-
+pounds (such as silver oxide, zinc hydroxide, silver chloride, etc.) or complex compounds. 
+Consequently, potassium iodide indirectly interacted with silver nitrate and zinc nitrate. 
+This hypothesis will be further investigated. The formation of copper oxide could provide 
+evidence supporting this claim. 
+
+The X-Ray results showed in figure 4. It was established that AgI and ZnI2 nanocrys-
+tals were created in HPs, because    X-ray image for those samples had specific peaks. The 
+formation of all types of nanocrystals was for all AgI-ZnI2-SiO2 hybrids.     
+
+Figure 4. X-ray image of AgI-ZnI2-SiO2 HPs: A - AgI-ZnI2-MCM48, B - AgI-ZnI2-MCM41,C - AgI-
+
+ZnI2-SBA15, D - AgI-ZnI2-SBA16. 
+
+The AgI thermal stability was an important feature of AgI-ZnI2-SiO2 reagent. The AgI 
+thermal stability was more significant than  ZnI2 thermal stability, because ZnI2 must be 
+destroyed under the influence of high temperatures. The thermal destruction of zinc io-
+dide helped to prevent the silver iodide sublimation, since iodine donors were formed in 
+the  local  area  of  combustion.  The  AgI  thermal  stability  were  studied  by  X-Ray  (fig.  5), 
+thermal  gravimetric  analysis  (fig.  6)  and  atomic  absorption  spectroscopy  with  titration 
+(table 3). The AgI thermal stability was AgI crystals preservation at the high temperature 
+exposure at 1000 °C for 10 minutes in author’s experiments. Of course, the selected mode 
+did not fully reflect the combustion temperature of the delivery vehicle. Thus, the authors 
+believe that the conditions for studying thermal stability were adequate, and the experi-
+mental results were reliable.   
+
+The hybrid samples underwent high-temperature treatment. X-ray analysis of these 
+powders revealed that both silver iodide and zinc iodide remained intact in their compo-
+sition. Zinc oxide was not detected in all the powders. The presence of silver iodide and 
+zinc iodide crystals was consistently observed in all hybrid samples, irrespective of the 
+type of silica dioxide matrix (fig. 5). This was confirmed by the characteristic peaks seen 
+in the X-ray diffraction patterns. 
+
+183
+
+184
+
+185
+
+186
+
+187
+
+188
+
+189
+
+190
+
+191
+
+192
+
+193
+
+194
+
+195
+
+196
+
+197
+
+198
+
+199
+
+200
+
+201
+
+202
+
+203
+
+204
+
+205
+
+206
+
+207
+
+208
+
+209
+
+210
+
+211
+
+212
+
+213
+
+214
+
+215
+
+216
+
+217
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+7  of  10 
+
+Figure 5. X-ray image of AgI-ZnI2-SiO2 HPs after high-temperature exposure: A - AgI-ZnI2-MCM48, 
+
+B - AgI-ZnI2-MCM41, C - AgI-ZnI2-SBA15, D - AgI-ZnI2-SBA16. 
+
+Thermal stability was assessed using thermal gravimetric analysis, which revealed 
+the dynamics of silver iodide and zinc iodide decomposition under high-temperature con-
+ditions. No qualitative or quantitative changes in the silica dioxide matrix were detected 
+during heating. It was particularly challenging to disentangle the thermal decomposition 
+processes of silver iodide and zinc iodide. The authors conducted experiments where AgI-
+SiO2 and ZnI2-SiO2 hybrids, utilizing MCM48, MCM41, SBA15, and SBA16 as silica diox-
+ide matrices, were separately exposed to high temperatures. However, these experiments 
+did not provide a clear single influence. It was observed and confirmed that an expansion 
+of the delayed sublimation zone (Fig. 6) occurred at temperatures ranging from 750 to 900 
+°C for AgI-ZnI2-SiO2 hybrids, compared to pure silver iodide (Fig. 6, curve E).   
+
+Figure 6. The thermal gravimetric curves of AgI-ZnI2-SiO2 HPs after high-temperature exposure. 
+
+Table 3 presents the findings from atomic absorption spectroscopy combined with 
+titration. It was found that the type of silica dioxide matrix changed the thermal stability 
+of silver iodide and zinc iodide. The data obtained through this method confirmed the 
+protective screening property of the silica dioxide matrix. It was also determined that the 
+quantity of preserved silver iodide and zinc iodide increased in the series SBA15, SBA16, 
+MCM41  and  MCM48.  This  phenomenon  can  be  attributed  to  the  silica  dioxide  matrix 
+providing protection to the silver iodide and zinc iodide nanocrystals. MCM48 exhibited 
+stronger protective properties compared to SBA15 silica dioxide due to its more complex 
+surface structure, characterized by high structural and textural indicators. 
+
+Table 3. The average AgI content in the AgI-ZnI2-SiO2 HPs after high-temperature exposure. 
+
+HP sample 
+AgI-ZnI2-MCM48 
+
+AgI content, % 
+71 
+
+ZnI2 content, % 
+9 
+
+218
+
+219
+
+220
+
+221
+
+222
+
+223
+
+224
+
+225
+
+226
+
+227
+
+228
+
+229
+
+230
+
+231
+
+232
+
+233
+
+234
+
+235
+
+236
+
+237
+
+238
+
+239
+
+240
+
+241
+
+242
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+8  of  10 
+
+AgI-ZnI2-MCM41 
+AgI-ZnI2-SBA15 
+AgI-ZnI2-SBA16 
+
+68 
+66 
+64 
+
+7 
+6 
+6 
+
+Some  of  the  existing  exploitation  characteristics  were  moisture  absorption  under 
+static conditions and the dynamics of atmospheric moisture condensation. The results of 
+the study were presented in tables 4. 
+
+Table 4. The moisture absorption under the static and dynamics conditions for the AgI-ZnI2-SiO2 
+
+HPs. 
+
+HP sample 
+
+The duration of destruction, s 
+
+Moisture absorption, wt. 
+% 
+32 
+29 
+26 
+27 
+
+92 
+105 
+82 
+76 
+
+AgI-ZnI2-MCM48 
+AgI-ZnI2-MCM41 
+AgI-ZnI2-SBA15 
+AgI-ZnI2-SBA16 
+The analysis of potential operational characteristics (Tables 4) revealed that the syn-
+thesized hybrids exhibited at least two distinct mechanisms affecting atmospheric mois-
+ture. The first mechanism involved condensation due to the silica dioxide matrix, as evi-
+denced by moisture absorption under static conditions. The second mechanism was the 
+generation  of  descending  air  flows,  as  indicated  by  precipitation  dynamics.  It  was  ob-
+served that the condensation activity in relation to atmospheric moisture increased in the 
+sequence MCM41, MCM48, SBA16, and SBA15. This trend was linked to the porosity of 
+the silica matrix, with pore size playing a more significant role than surface area. Conse-
+quently, the condensation efficiency rose in proportion to the increase in mesoporous sil-
+ica dioxide pore space. The intensity of the generation descending air flows was compa-
+rable  across  all  types  of  AgI-ZnI2-SiO2  HPs.  The  duration  of  destruction  for  AgI-ZnI2-
+MCM41 was highest, because MCM41 microagglomerates might create stable suspension 
+in atmospheric air.     
+
+4. Conclusions   
+
+The  hydrothermal  template  co-condensation  method  was  employed  to  synthesize 
+hybrid materials composed of AgI and ZnI2 nanocrystals embedded within mesoporous 
+silica dioxide, specifically utilizing MCM48, MCM41, SBA15 and SBA16 as the matrix. The 
+resulting HPs exhibited a well-defined mesoporous structure of silica dioxide, with silver 
+iodide and zinc iodide nanocrystals localized on the silica surface through weak physical 
+interactions. This arrangement was achieved via the synergistic effects of the hydrother-
+mal process and the templating capabilities of the silica dioxide matrixe, facilitating the 
+controlled deposition and stabilization of the metal halide nanocrystals. 
+
+It  was  established  that  the  characterization  of  the  silica  dioxide  matrix  has  been 
+
+shown to significantly influence the morphological attributes of AgI-ZnI2-SiO2 HPs. 
+
+It was demonstrated that the deposition of silver iodide and zinc iodide nanocrystals 
+onto  the  surface  of  silica  dioxide  matrix  leads  to  a  systematic  reduction  in  the  specific 
+surface area of the mesoporous SiO2. This reduction was attributable to the filling of the 
+interpore space and pore structures with the deposited nanocrystals, effectively occluding 
+the available surface area. The extent of this reduction in specific surface area varied across 
+different SiO2 matrix as evidenced by the following data: 40 m2/g for MCM48, to 33 m2/g 
+for MCM41, to 27 m2/g for SBA15, to 25 m2/g for SBA16.    Furthermore, the analysis re-
+vealed significant alterations in the pore volume metrics and linear dimensions of the SiO2 
+matrix, irrespective of the matrix type. These findings underscore the profound impact of 
+nanocrystal deposition on the porous structure of silica dioxide, highlighting the need for 
+a comprehensive understanding of the physicochemical processes involved in such trans-
+formations. The observed changes in pore characteristics suggested that the crystallization 
+
+243
+
+244
+
+245
+
+246
+
+247
+
+248
+
+249
+
+250
+
+251
+
+252
+
+253
+
+254
+
+255
+
+256
+
+257
+
+258
+
+259
+
+260
+
+261
+
+262
+
+263
+
+264
+
+265
+
+266
+
+267
+
+268
+
+269
+
+270
+
+271
+
+272
+
+273
+
+274
+
+275
+
+276
+
+277
+
+278
+
+279
+
+280
+
+281
+
+282
+
+283
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+9  of  10 
+
+process did not only modifying the surface area but also affected the internal architecture 
+of the SiO2 matrix. 
+
+It  has  been  shown  that  the  characterization  of  the  structure  of  mesoporous  silicon 
+dioxide did not affect the growth and morphology of silver iodide and zinc iodide nano-
+crystals. However, the properties of the matrices nd the pH-forming substances, which 
+were used for synthesis, had an indirect effect on crystal formation. 
+
+It has been found that the morphology and physico-chemical properties of mesopo-
+rous silicon dioxide play a key role in the formation of the final morphology and sizes of 
+metal halide nanocrystals. 
+
+The thermal stability of silver  iodide and zinc iodide was demonstrated to signifi-
+cantly enhance due to the protective shielding effect of the silica dioxide matrix. The anal-
+ysis revealed that after high-temperature exposure, the silver iodide content varied across 
+different  mesoporous  silica  dioxide  matrix:  specifically,  71  %  for  MCM48,  68  %  for 
+MCM41, 66 % for SBA15, and 64 % for SBA16. This observation underscored the critical 
+role of the SiO2 matrix in preserving the integrity and stability of the iodide-based species 
+under high temperature. 
+
+The  analysis  of  the  AgI-ZnI2-SiO2  operational  characteristics  revealed  differences, 
+which provide a basis for the theoretical classification of novel reagents designed for arti-
+ficial manipulation of atmospheric moisture. These differences could be potentially uti-
+lized to optimize their application under diverse atmospheric conditions, including vary-
+ing cloud water content, altitude, and other relevant meteorological factors. This approach 
+did not only enhance the precision of atmospheric engineering but also broadens the ap-
+plicability of these reagents in a wide range of environmental contexts. 
+
+The synthesized reagent demonstrated significant potential to enhance the efficacy of artificial in-
+
+terventions in meteorological phenomena. Its implementation is expected to optimize the modula-
+
+tion of atmospheric dynamics, thereby improving the controllability of dangerous weather phenom-
+
+ena. 
+
+Acknowledgements: The work was performed within the framework of the state assignment of the 
+
+Ministry of Science and Higher Education of the Russian Federation (No. 124022200039-7 Theoreti-
+
+cal  and  experimental  foundations  for  the  production  of  multifunctional  materials  based  on  inor-
+
+ganic, carbon and polymer matrices for use in various systems). 
+
+Author Contributions: Conceptualization and methodology – A. Averkina, I. Valtsifer, V. Valtsifer; 
+
+formal analysis - V. Valtsifer, V. Strel’nikov; investigation – A. Averkina, I. Valtsifer, N. Kondrash-
+
+ova; writing—original draft preparation – A. Averkina; writing—review and editing – I. Valtsifer, 
+
+V. Valtsifer; supervision – V. Valtsifer, V. Strel’nikov. All authors have read and agreed to the pub-
+
+lished version of the manuscript. 
+
+Data Availability Statement: The original contributions presented in this study are included in the 
+
+article/supplementary material. Further inquiries can be directed to the corresponding authors. 
+
+Competing interests: The authors declare that they have no competing interests. 
+
+References 
+
+1. 
+
+Doronin  A.  Impacts  on  atmospheric  processes  and  phenomena.  Study  guide.  Military  Space  Academy  named  after  A.F. 
+
+Mozhaisky, Saint Petersburg, 2014, pp. 196-258. 
+
+2. 
+
+Fitzner M. The many faces of heterogeneous ice nucleation: Interplay between surface morphology and hydrophobicity. J. Am. 
+
+Chem. Soc 2015, 137, 13658-13669.   
+
+3. 
+
+4. 
+
+Rosinski J. Silver halides and iodide monobromide systms as frezzeng nuclei. J. App. Met 1974, 13, 778-782.    
+
+Marcolli C, Nagare A, Welti    B, Lohmann U. Ice nucleation efficiency of AgI: review and new insights.  Atmos Chem Phys. 
+
+2016, 16, 8915-8937. 
+
+284
+
+285
+
+286
+
+287
+
+288
+
+289
+
+290
+
+291
+
+292
+
+293
+
+294
+
+295
+
+296
+
+297
+
+298
+
+299
+
+300
+
+301
+
+302
+
+303
+
+304
+
+305
+
+306
+
+307
+
+308
+
+309
+
+310
+
+311
+
+312
+
+313
+
+314
+
+315
+
+316
+
+317
+
+318
+
+319
+
+320
+
+321
+
+322
+
+323
+
+324
+
+325
+
+326
+
+327
+
+328
+
+329
+
+330
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nanomaterials 2025, 15, x FOR PEER REVIEW 
+
+10  of  10 
+
+5. 
+
+Averkina A. Physicochemical foundations of the technology of synthesis of a sediment-transforming reagent based on AgI-
+
+SiO2 [Dissertation]: Perm State Polytechnic University, 2022, 197. 
+
+6. 
+
+Averkina A., Kondrashova N., Saenko E., Shamsutdinov A., Valtsifer V., Stopar D. Comparative study of texture and rheolog-
+
+ical properties of AgI-SiO2 hybrid powders with different pore structure. J Solgel Sci Technol 2023, 108, 339-351. 
+
+7. 
+
+Averkina A. Prospects for the use of hybrid powder material AgI-SiO2 in the composition of anti-hail rocket fuel. Bulletin of 
+
+SPbSTI (TU) 2023, 67, 15-19. 
+
+8. 
+
+Averkina А., Kondrashova N., Saenko E.,  Valtsifer V. Synthesis and properties of AgI-SiO2  precipitate-reforming reagents 
+
+based on SBA-15 mesoporous Silicon-oxide. Polymer Science, series D 2023, 16, 19-24.   
+
+9. 
+
+Zienkiewicz-Strzałka  M.,  Pikus.  Small-angle  X-ray  scattering  (SAXS)  studies  of  the  structure  of  mesoporous  silicas.  Nucl. 
+
+Instrum. Methods Phys. Res. B 2017, 411, 72-77. 
+
+10. 
+
+Sacramento R. Cysneiros O., Silva B., Silva A. Synthesis and characterization of mesoporous materials with SBA and MCM 
+
+structure types. Ceramica 2019, 65, 585-591. 
+
+11. 
+
+Muniz F., Miranda M., Dos Santos C., Sasaki J. The Scherrer equation and the dynamical theory of X-ray diffraction. Acta 
+
+Crystallogr. A: Found. Adv 2016, 72, 385-390. 
+
+12. 
+
+Patterson L The Scherrer Formula for X-Ray Particle Size Determination. Phys Rev 1939, 56, 978-982. 
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual au-
+
+thor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to 
+
+people or property resulting from any ideas, methods, instructions or products referred to in the content. 
+
+331
+
+332
+
+333
+
+334
+
+335
+
+336
+
+337
+
+338
+
+339
+
+340
+
+341
+
+342
+
+343
+
+344
+
+345
+
+346
+
+347
+
+348
+
+349
+
+350
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
